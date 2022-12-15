@@ -1,6 +1,5 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="autoTrigger" value="false" />
     <option name="fileExclusions">
       <list>
         <option value="**/*Directions.java" />
@@ -44,7 +43,7 @@
       <list>
         <SonarQubeServer>
           <option name="hostUrl" value="http://localhost:9000/" />
-          <token>dfd9dfdbdfdfdff5df9cdfc8dfcfdf98df93df92dfccdfcfdfc9df9fdf99df9fdf98dfc9df93dfc8df99df9edfcfdf92df99dfcbdfc9df9edf93dfc9df9adfc9df92df99df9ddfc8df9adfc9dfcedfcfdfcbdfccdf9cdfcc</token>
+          <token>dfd9dfdbdfdadff5dfcedf9adf9bdfcfdf9fdfc9dfc9df9adf9bdf9edfc8dfc9df98dfcfdf99df9adf98dfcfdf98dfcbdfc8df98dfc8dfc8df9ddfc9dfcedf92dfcfdf98df92df93dfcfdfc8df99df9cdf9bdf9ddf9fdf9a</token>
           <option name="name" value="LocalHost" />
         </SonarQubeServer>
         <SonarQubeServer>
