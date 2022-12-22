@@ -5,23 +5,23 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="127.0.0.1:5555" />
-          </Key>
-        </key>
-        <name value="Genymobile Fire HD 10" />
-        <target value="Android 10.0" />
-        <api value="androidversion:29:null:null:true" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
             <value value="64e3f5b9" />
           </Key>
         </key>
         <name value="Xiaomi M2012K11I" />
         <target value="Android 12.0" />
         <api value="androidversion:31:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="127.0.0.1:5555" />
+          </Key>
+        </key>
+        <name value="Genymobile Fire HD 10" />
+        <target value="Android 10.0" />
+        <api value="androidversion:29:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
