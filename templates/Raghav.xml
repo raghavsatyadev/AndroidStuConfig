@@ -1,5 +1,5 @@
 <templateSet group="Raghav">
-  <template name="aloge" value="AppLog.INSTANCE.loge(false, &quot;$FileName$&quot;, &quot;$MethodName$&quot;, e, new Exception());" description="Error log with Applog#loge" toReformat="true" toShortenFQNames="true">
+  <template name="alogef" value="AppLog.INSTANCE.loge(false, &quot;$FileName$&quot;, &quot;$MethodName$&quot;, e, new Exception());" description="Error log with Applog#loge" toReformat="true" toShortenFQNames="true">
     <variable name="FileName" expression="fileName()" defaultValue="" alwaysStopAt="false" />
     <variable name="MethodName" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <context>
@@ -92,19 +92,19 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="alogE" value="AppLog.logE(log: $Message$);" description="AppLog.logE implementation" toReformat="true" toShortenFQNames="true">
+  <template name="aloge" value="AppLog.logE(log: $Message$);" description="AppLog.logE implementation" toReformat="true" toShortenFQNames="true">
     <variable name="Message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="alogD" value="AppLog.logD(log: $Message$);" description="AppLog.logD implementation" toReformat="true" toShortenFQNames="true">
+  <template name="alogd" value="AppLog.logD(log: $Message$);" description="AppLog.logD implementation" toReformat="true" toShortenFQNames="true">
     <variable name="Message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="alogW" value="AppLog.logW(log: $Message$);" description="AppLog.logW implementation" toReformat="true" toShortenFQNames="true">
+  <template name="alogw" value="AppLog.logW(log: $Message$);" description="AppLog.logW implementation" toReformat="true" toShortenFQNames="true">
     <variable name="Message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
