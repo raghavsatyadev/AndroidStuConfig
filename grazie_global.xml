@@ -1,10 +1,5 @@
 <application>
   <component name="GraziConfig">
-    <option name="enabledLanguages">
-      <set>
-        <option value="English (GB)" />
-      </set>
-    </option>
     <option name="userEnabledRules">
       <set>
         <option value="LanguageTool.EN.US_ONE_ENTITY" />
@@ -216,6 +211,7 @@
         <option value="LanguageTool.EN.NOT_CERTAIN" />
         <option value="Bundled.Yaml.Legal.Generic.contractions" />
         <option value="Bundled.Yaml.Microsoft_Writing_Style_Guide.GenderBias" />
+        <option value="LanguageTool.EN.METRIC_UNITS_EN_IMPERIAL" />
         <option value="LanguageTool.EN.ON_THE_OTHER_HAND" />
         <option value="LanguageTool.EN.TYPE_OF" />
         <option value="Bundled.Yaml.Google_Developer_Documentation_Style_Guide.AMPM" />
@@ -242,6 +238,7 @@
         <option value="LanguageTool.EN.EG_NO_COMMA" />
         <option value="LanguageTool.EN.EACH_AND_EVERY_NOUN" />
         <option value="LanguageTool.EN.COVID_19" />
+        <option value="LanguageTool.EN.GAS_PETROL" />
         <option value="Grazie.RuleEngine.En.Style.PASSIVE_VOICE" />
         <option value="Bundled.Yaml.Microsoft_Writing_Style_Guide.HeadingAcronyms" />
         <option value="LanguageTool.EN.WHITESPACE_PARAGRAPH_BEGIN" />
@@ -325,6 +322,20 @@
         <option value="LanguageTool.EN.BELATED" />
         <option value="LanguageTool.EN.NON_ENGLISH_CHARACTER_IN_A_WORD" />
       </set>
+    </option>
+    <option name="suppressingContext">
+      <SuppressingContext>
+        <option name="suppressed">
+          <set>
+            <option value="MIT" />
+          </set>
+        </option>
+      </SuppressingContext>
+    </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInStringLiteralsEnabled" value="true" />
+      </CheckingContext>
     </option>
   </component>
 </application>
