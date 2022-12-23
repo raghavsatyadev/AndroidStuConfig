@@ -1,10 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone" />
+    <option name="mostRecentlyUsed" value="package:mine " />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.lexmark.mobileone" />
         <option value="package:mine " />
+        <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone afterFirstLayout" />
         <option value="package:com.lexmark.mobileone " />
         <option value="package:" />

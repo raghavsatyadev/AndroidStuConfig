@@ -328,6 +328,7 @@
         <option name="suppressed">
           <set>
             <option value="MIT" />
+            <option value="wrap" />
           </set>
         </option>
       </SuppressingContext>
