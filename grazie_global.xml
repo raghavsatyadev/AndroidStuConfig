@@ -1,5 +1,12 @@
 <application>
   <component name="GraziConfig">
+    <option name="enabledLanguages">
+      <set>
+        <option value="English (US)" />
+        <option value="German (Germany)" />
+        <option value="French" />
+      </set>
+    </option>
     <option name="userEnabledRules">
       <set>
         <option value="LanguageTool.EN.US_ONE_ENTITY" />
