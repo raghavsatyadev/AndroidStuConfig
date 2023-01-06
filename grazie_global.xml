@@ -330,16 +330,6 @@
         <option value="LanguageTool.EN.NON_ENGLISH_CHARACTER_IN_A_WORD" />
       </set>
     </option>
-    <option name="suppressingContext">
-      <SuppressingContext>
-        <option name="suppressed">
-          <set>
-            <option value="MIT" />
-            <option value="wrap" />
-          </set>
-        </option>
-      </SuppressingContext>
-    </option>
     <option name="checkingContext">
       <CheckingContext>
         <option name="isCheckInStringLiteralsEnabled" value="true" />
