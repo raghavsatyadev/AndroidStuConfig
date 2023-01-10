@@ -1,28 +1,28 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine level:error " />
+    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.lexmark.mobileone" />
+        <option value="package:com.lexmark.mobileone " />
+        <option value="package:com.lexmark.mobileone level:ERROR " />
+        <option value="package:mine " />
+        <option value="package:com.lexmark.mobileone afterFirstLayout" />
+        <option value="package:" />
+        <option value="package:com.m" />
+        <option value="package:com." />
+        <option value="package:com.lexmark.mobileone  " />
         <option value="package:mine" />
+        <option value="package:mine ==============" />
+        <option value="package:mine line~:===========" />
+        <option value="package:mine line:==============" />
         <option value="package:mine level:error " />
         <option value="package:mine level:ERROR " />
-        <option value="package:mine " />
         <option value="package:mine -line~:onFlyCompress " />
         <option value="level:ERROR " />
         <option value="package:mine -line~:onFlyCompress level:error" />
         <option value="package:mine -line~:onFlyCompress level:error message:calculateHistogramSimilarity" />
         <option value="package:mine -line~:onFlyCompress level:error " />
-        <option value="level:error " />
-        <option value="package:mine -line~:onFlyCompress" />
-        <option value="package:mine -line~:onFlyCompress level:ERROR " />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh " />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh" />
-        <option value="package:mine -line~:Tuya -line~:TYCa -line~:TYSDK -line~:panelActionBundle -line~:com.tuya.smart -line~:ImageReader -line~:0x00000000 -line~:libc -line~:SDM -line~:vendor.qt -line~:statsd -line~:Choreographer -line~:paho_mqtt -line~:SoLoader -line~:MMKV -line~:AdrenoGLES -line~:ApkSoSource -line~:OpenGLRenderer -line~:GwBroadcastMonitorService -line~:GwBroadcastMonitorModel -line~:IntegerColor " />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh level:ERROR" />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh level:ERROR line~:convertBitmap" />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh level:ERROR line~:CameraActivity" />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh level:ERROR line~:listener" />
-        <option value="package:mine -line~:onFlyCompress -line~:RxComputationTh level:ERROR " />
       </list>
     </option>
   </component>
