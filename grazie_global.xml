@@ -333,6 +333,11 @@
     <option name="checkingContext">
       <CheckingContext>
         <option name="isCheckInStringLiteralsEnabled" value="true" />
+        <option name="disabledLanguages">
+          <set>
+            <option value="yaml" />
+          </set>
+        </option>
       </CheckingContext>
     </option>
   </component>
