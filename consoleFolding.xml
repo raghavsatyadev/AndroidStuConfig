@@ -8,9 +8,10 @@
         <option value="Accessing hidden method Landroid/app/LoadedApk" />
         <option value="Choreographer" />
         <option value="FA" />
+        <option value="Skipped" />
         <option value="studio.deploy" />
         <option value="StudioTransport" />
-        <option value="Skipped" />
+        <option value="ViewPostIme" />
       </list>
     </option>
   </component>
