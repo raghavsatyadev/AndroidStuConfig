@@ -10,7 +10,6 @@
                   <option value="com.intellij.modules.xml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -96,6 +95,7 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -146,7 +146,6 @@
                   <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -158,7 +157,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -249,7 +247,6 @@
                   <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -275,7 +272,6 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -288,6 +284,7 @@
                   <option value="org.jetbrains.android" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -313,7 +310,6 @@
                   <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -337,7 +333,6 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -377,15 +372,12 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
         <entry key="training">
           <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
+            <PluginData />
           </value>
         </entry>
         <entry key="wu.seal.tool.jsontokotlin">
