@@ -36,6 +36,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="Subversion">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.vcs" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.dengzii.plugin.adb.free">
           <value>
             <PluginData>
@@ -99,6 +111,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.github.wenzewoo.jetbrains.plugin.jetbrains-markdown-image-support">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.godwin.kdocer">
           <value>
             <PluginData>
@@ -120,6 +143,13 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.grazie.pro">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -150,6 +180,17 @@
           </value>
         </entry>
         <entry key="com.nasller.CodeGlancePro">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.shuzijun.markdown-editor">
           <value>
             <PluginData>
               <option name="dependencies">
@@ -288,6 +329,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="hg4idea">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.vcs" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="idea.plugin.protoeditor">
           <value>
             <PluginData>
@@ -375,6 +428,13 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="tanvd.grazi">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="training">
           <value>
             <PluginData />
@@ -400,7 +460,6 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
