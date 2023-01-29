@@ -1,5 +1,6 @@
 <application>
   <component name="AndroidLogcatSettings">
+    <option name="filterHistoryAutocomplete" value="true" />
     <option name="mostRecentlyUsedFilterIsDefault" value="true" />
   </component>
 </application>
