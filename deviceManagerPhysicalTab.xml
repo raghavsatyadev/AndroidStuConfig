@@ -5,6 +5,17 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="R9ZRB00K1AV" />
+          </Key>
+        </key>
+        <name value="samsung SM-A226B" />
+        <target value="Android Tiramisu" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="RZ8M42RMTTH" />
           </Key>
         </key>
@@ -173,17 +184,6 @@
         </key>
         <name value="vivo V2202" />
         <target value="Android 13.0" />
-        <api value="androidversion:33:null:null:true" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="R9ZRB00K1AV" />
-          </Key>
-        </key>
-        <name value="samsung SM-A226B" />
-        <target value="Android Tiramisu" />
         <api value="androidversion:33:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
