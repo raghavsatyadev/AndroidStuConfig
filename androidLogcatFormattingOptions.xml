@@ -1,6 +1,6 @@
 <application>
   <component name="AndroidLogcatFormattingOptions">
     <option name="defaultFormatting" value="COMPACT" />
-    <option name="compactFormattingOptions" value="{'timestampFormat':{'style':'TIME','enabled':false},'processThreadFormat':{'style':'BOTH','enabled':false},'tagFormat':{'maxLength':10,'hideDuplicates':false,'enabled':false},'appNameFormat':{'maxLength':10,'hideDuplicates':false,'enabled':false}}" />
+    <option name="compactFormattingOptions" value="{'timestampFormat':{'style':'TIME','enabled':false},'processThreadFormat':{'style':'BOTH','enabled':false},'tagFormat':{'maxLength':10,'hideDuplicates':false,'enabled':true},'appNameFormat':{'maxLength':10,'hideDuplicates':false,'enabled':true}}" />
   </component>
 </application>

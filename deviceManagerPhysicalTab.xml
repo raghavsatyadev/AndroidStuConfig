@@ -5,12 +5,12 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="R9ZRB00K1AV" />
+            <value value="RZ8M42RMTTH" />
           </Key>
         </key>
-        <name value="samsung SM-A226B" />
-        <target value="Android Tiramisu" />
-        <api value="androidversion:33:null:null:true" />
+        <name value="samsung SM-A205F" />
+        <target value="Android 11.0" />
+        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -22,17 +22,6 @@
         <name value="Xiaomi M2012K11I" />
         <target value="Android 12.0" />
         <api value="androidversion:31:null:null:true" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="RZ8M42RMTTH" />
-          </Key>
-        </key>
-        <name value="samsung SM-A205F" />
-        <target value="Android 11.0" />
-        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -185,6 +174,17 @@
         <name value="vivo V2202" />
         <target value="Android 13.0" />
         <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="RZ8M42RMTTH" />
+          </Key>
+        </key>
+        <name value="samsung SM-A205F" />
+        <target value="Android 11.0" />
+        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
