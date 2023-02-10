@@ -1,0 +1,8 @@
+<application>
+  <component name="relay_analytics_optin">
+    <option name="clientId" value="6ca50150-c569-448d-9ba0-833cf5564bdf" />
+    <option name="hasAskedOnce" value="true" />
+    <option name="optedIn" value="true" />
+    <option name="sessionId" value="40e683c0-2787-415f-9d07-de232989d878" />
+  </component>
+</application>

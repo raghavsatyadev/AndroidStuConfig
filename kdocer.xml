@@ -1,0 +1,7 @@
+<application>
+  <component name="kdoc-er_configuration">
+    <option name="allowedField" value="true" />
+    <option name="allowedKeepDoc" value="true" />
+    <option name="allowedReplaceDoc" value="false" />
+  </component>
+</application>

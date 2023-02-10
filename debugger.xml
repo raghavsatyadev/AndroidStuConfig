@@ -1,5 +1,6 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -94,5 +95,14 @@
   <component name="XDebuggerSettings">
     <data-views />
     <general />
+    <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
+          <nt-symbol-settings />
+          <option name="VALUES_FILTER_ENABLED" value="false" />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
 </application>
