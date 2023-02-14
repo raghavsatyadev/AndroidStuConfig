@@ -11,11 +11,12 @@
         <option value="FA" />
         <option value="Failed to resolve name. status" />
         <option value="nativeRelease" />
+        <option value="Service already running, using existing service" />
         <option value="Skipped" />
         <option value="studio.deploy" />
         <option value="StudioTransport" />
         <option value="ViewPostIme" />
-        <option value="Service already running, using existing service" />
+        <option value="isSBSettingEnabled" />
       </list>
     </option>
   </component>
