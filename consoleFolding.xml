@@ -16,7 +16,7 @@
         <option value="studio.deploy" />
         <option value="StudioTransport" />
         <option value="ViewPostIme" />
-        <option value="isSBSettingEnabled" />
+        <option value="ViewRootImpl" />
       </list>
     </option>
   </component>
