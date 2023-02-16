@@ -12,11 +12,13 @@
         <option value="Failed to resolve name. status" />
         <option value="nativeRelease" />
         <option value="Service already running, using existing service" />
+        <option value="showSoftInput" />
         <option value="Skipped" />
         <option value="studio.deploy" />
         <option value="StudioTransport" />
         <option value="ViewPostIme" />
         <option value="ViewRootImpl" />
+        <option value="show(ime(), fromIme=true" />
       </list>
     </option>
   </component>
