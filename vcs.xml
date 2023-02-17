@@ -10,6 +10,10 @@
           <option name="url" value="https://gitlab.mobileprogramming.net/raghav.satyadev/lexmarkpoc.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitl.mobileprogramming.net" />
+          <option name="userName" value="raghav.satyadev" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Lexmark\Project" />
