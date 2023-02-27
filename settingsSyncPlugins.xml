@@ -10,18 +10,6 @@
                   <option value="com.intellij.modules.xml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="Dart">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.xml" />
-                </set>
-              </option>
             </PluginData>
           </value>
         </entry>
@@ -56,7 +44,29 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.chimerapps.moorinspector">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.chimerapps.tools.storage-inspector-plugin">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>
@@ -191,16 +201,15 @@
             </PluginData>
           </value>
         </entry>
-        <entry key="com.localizely.flutter-intl">
+        <entry key="com.mohn93.advanced.json2dart.plugin">
           <value>
             <PluginData>
               <option name="dependencies">
                 <set>
                   <option value="Dart" />
-                  <option value="com.intellij.modules.all" />
+                  <option value="com.intellij.modules.json" />
                   <option value="com.intellij.modules.lang" />
                   <option value="com.intellij.modules.platform" />
-                  <option value="org.jetbrains.plugins.yaml" />
                 </set>
               </option>
             </PluginData>
@@ -217,6 +226,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.obroom.plugin.regextool">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.shuzijun.markdown-editor">
           <value>
             <PluginData>
@@ -225,7 +246,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -365,7 +385,6 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -406,6 +425,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.intellij.RegexpTester">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.intellij.featureSuggester">
           <value>
             <PluginData>
@@ -431,7 +461,6 @@
                   <option value="org.jetbrains.kotlin" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -441,6 +470,17 @@
               <option name="dependencies">
                 <set>
                   <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="ru.adelf.idea.dotenv">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
                 </set>
               </option>
             </PluginData>
