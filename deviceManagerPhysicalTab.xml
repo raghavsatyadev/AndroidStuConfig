@@ -4,8 +4,8 @@
       <PhysicalDevice>
         <key>
           <Key>
-            <type value="DOMAIN_NAME" />
-            <value value="adb-64e3f5b9-3tfWQB._adb-tls-connect._tcp" />
+            <type value="SERIAL_NUMBER" />
+            <value value="64e3f5b9" />
           </Key>
         </key>
         <name value="Xiaomi M2012K11I" />
