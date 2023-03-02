@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone" />
+    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone mixed data" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.lexmark.mobileone mixed data" />
         <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone lexmark4561.com" />
         <option value="package:com.lexmark.mobileone facebook" />
@@ -22,7 +23,6 @@
         <option value="package:mine line~:===========" />
         <option value="package:mine line:==============" />
         <option value="package:mine level:ERROR " />
-        <option value="package:mine -line~:onFlyCompress " />
       </list>
     </option>
   </component>
