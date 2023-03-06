@@ -5,9 +5,13 @@
       <w>deskew</w>
       <w>lexmark</w>
       <w>mobileone</w>
+      <w>mopria</w>
       <w>segmenter</w>
       <w>tuya</w>
       <w>webview</w>
+      <w>wlanpsk</w>
+      <w>wlansecmode</w>
+      <w>wlanssid</w>
     </words>
   </component>
 </application>
