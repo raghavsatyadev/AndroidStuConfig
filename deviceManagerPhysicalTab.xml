@@ -5,10 +5,10 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="R9ZRB00K1AV" />
+            <value value="64e3f5b9" />
           </Key>
         </key>
-        <name value="samsung SM-A226B" />
+        <name value="Xiaomi M2012K11I" />
         <target value="Android 13.0" />
         <api value="androidversion:33:null:null:true" />
       </PhysicalDevice>
@@ -16,10 +16,10 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="64e3f5b9" />
+            <value value="R9ZRB00K1AV" />
           </Key>
         </key>
-        <name value="Xiaomi M2012K11I" />
+        <name value="samsung SM-A226B" />
         <target value="Android 13.0" />
         <api value="androidversion:33:null:null:true" />
       </PhysicalDevice>
