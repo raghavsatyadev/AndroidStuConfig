@@ -59,6 +59,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.chimerapps.tools.storage-inspector-plugin">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.dengzii.plugin.adb.free">
           <value>
             <PluginData>
@@ -212,6 +223,18 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.obroom.plugin.regextool">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -402,6 +425,17 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.intellij.RegexpTester">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.intellij.featureSuggester">
           <value>
             <PluginData>
@@ -416,6 +450,20 @@
         <entry key="org.jetbrains.kotlin">
           <value>
             <PluginData />
+          </value>
+        </entry>
+        <entry key="org.moe">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.gradle" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="org.jetbrains.plugins.gradle" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
           </value>
         </entry>
         <entry key="org.norbye.tor.kdocformatter">

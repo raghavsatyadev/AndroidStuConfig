@@ -1,15 +1,20 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
+    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine" />
-        <option value="pack" />
-        <option value="package:mine " />
-        <option value="package:com.lexmark.mobileone " />
-        <option value="package:com.lexmark.mobileone level:error " />
         <option value="package:com.lexmark.mobileone" />
+        <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
+        <option value="package:com.lexmark.mobileone level:error " />
+        <option value="package:com.lexmark.mobileone " />
+        <option value=" level:error " />
+        <option value="package:com.lexmark.mobileone mixed data" />
+        <option value="package:com.lexmark.mobileone lexmark4561.com" />
+        <option value="package:com.lexmark.mobileone facebook" />
+        <option value="PACKAGE:" />
+        <option value="package:mine" />
         <option value="package:mine level:error " />
+        <option value="package:mine " />
         <option value="package:com.lexmark.mobileone afterFirstLayout" />
         <option value="package:com.lexmark.mobileone level:ERROR " />
         <option value="package:" />
@@ -18,11 +23,6 @@
         <option value="package:com.lexmark.mobileone  " />
         <option value="package:mine ==============" />
         <option value="package:mine line~:===========" />
-        <option value="package:mine line:==============" />
-        <option value="package:mine level:ERROR " />
-        <option value="package:mine -line~:onFlyCompress " />
-        <option value="level:ERROR " />
-        <option value="package:mine -line~:onFlyCompress level:error" />
       </list>
     </option>
   </component>
