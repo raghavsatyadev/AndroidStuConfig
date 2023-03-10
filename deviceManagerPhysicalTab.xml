@@ -5,6 +5,17 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="64e3f5b9" />
+          </Key>
+        </key>
+        <name value="Xiaomi M2012K11I" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="R9ZRB00K1AV" />
           </Key>
         </key>
@@ -16,12 +27,12 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="64e3f5b9" />
+            <value value="a9ec7e30" />
           </Key>
         </key>
-        <name value="Xiaomi M2012K11I" />
-        <target value="Android 12.0" />
-        <api value="androidversion:31:null:null:true" />
+        <name value="Xiaomi Redmi K20 Pro" />
+        <target value="Android 11.0" />
+        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
@@ -43,17 +54,6 @@
         </key>
         <name value="Device" />
         <target value="Android 1.0" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="a9ec7e30" />
-          </Key>
-        </key>
-        <name value="Xiaomi Redmi K20 Pro" />
-        <target value="Android 11.0" />
-        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>

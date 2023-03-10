@@ -452,6 +452,20 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="org.moe">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.gradle" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="org.jetbrains.plugins.gradle" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.norbye.tor.kdocformatter">
           <value>
             <PluginData>
