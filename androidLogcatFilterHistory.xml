@@ -4,8 +4,8 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.lexmark.mobileone" />
-        <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
         <option value="package:com.lexmark.mobileone level:error " />
+        <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
         <option value="package:com.lexmark.mobileone " />
         <option value=" level:error " />
         <option value="package:com.lexmark.mobileone mixed data" />
