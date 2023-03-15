@@ -44,6 +44,7 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -385,6 +386,7 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
