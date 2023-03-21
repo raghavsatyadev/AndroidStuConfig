@@ -6,6 +6,7 @@
         <option value="Accessing hidden field Landroid/app/LoadedApk" />
         <option value="Accessing hidden method" />
         <option value="Accessing hidden method Landroid/app/LoadedApk" />
+        <option value="af_haf.cpp:1426" />
         <option value="caecxcontrol" />
         <option value="camxcafioutil" />
         <option value="cancelDraw" />
@@ -24,7 +25,7 @@
         <option value="StudioTransport" />
         <option value="ViewPostIme" />
         <option value="ViewRootImpl" />
-        <option value="af_haf.cpp:1426" />
+        <option value="updateAcquireFence" />
       </list>
     </option>
   </component>
