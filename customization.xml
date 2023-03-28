@@ -92,10 +92,35 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="AttachDebuggerAction" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar Right" />
+      <path value="Flutter.MainToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Flutter.Toolbar.ReloadAction" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar Right" />
+      <path value="Flutter.MainToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Flutter.Toolbar.RestartAction" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar Right" />
+      <path value="Flutter.MainToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ManageTargets" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar Right" />
+      <path value="Flutter.MainToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="GradleKiller.kill" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Main Toolbar Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <action id="ManageTargets" icon="jar:file:/C:/Users/MobileProgramming/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/223.8617.56.2231.9716135/lib/app.jar!/expui/toolbar/unknown.svg" />
   </component>
 </application>
