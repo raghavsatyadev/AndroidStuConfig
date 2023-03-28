@@ -1,12 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone level:error " />
+    <option name="mostRecentlyUsed" value="" />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.lexmark.mobileone level:error " />
-        <option value="package:com.lexmark.mobileone" />
-        <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
+        <option value="package:com.lexmark.mobileone tim" />
         <option value="package:com.lexmark.mobileone " />
+        <option value="package:com.lexmark.mobileone" />
+        <option value="package:com.lexmark.mobileone level:error " />
+        <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
         <option value=" level:error " />
         <option value="package:com.lexmark.mobileone mixed data" />
         <option value="package:com.lexmark.mobileone lexmark4561.com" />
@@ -22,7 +23,6 @@
         <option value="package:com." />
         <option value="package:com.lexmark.mobileone  " />
         <option value="package:mine ==============" />
-        <option value="package:mine line~:===========" />
       </list>
     </option>
   </component>
