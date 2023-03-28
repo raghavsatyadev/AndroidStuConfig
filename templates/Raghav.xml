@@ -117,4 +117,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="slog" value="AppUtility.showToastLogDebug($STATEMENT$);" description="Adds Snackbar and Log both" toReformat="false" toShortenFQNames="true">
+    <variable name="STATEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
