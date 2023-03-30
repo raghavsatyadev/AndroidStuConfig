@@ -4,7 +4,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.lexmark.mobileone " />
-        <option value="package:com.lexmark.mobileone locked" />
+        <option value="package:com.lexmark.mobileone tim" />
         <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone level:error " />
         <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
