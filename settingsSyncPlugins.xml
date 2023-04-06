@@ -71,6 +71,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.dcm">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="Dart" />
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.dengzii.plugin.adb.free">
           <value>
             <PluginData>
@@ -399,6 +412,7 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
+              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
