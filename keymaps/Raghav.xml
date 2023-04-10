@@ -5,6 +5,9 @@
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="DCM.fixAll">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
