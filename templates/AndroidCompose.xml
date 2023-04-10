@@ -1,8 +1,10 @@
 <templateSet group="AndroidCompose">
   <template name="W" value="$WIDGET$ {&#10; $SELECTION$$END$ &#10; }" description="Surround with widget" toReformat="true" toShortenFQNames="true">
     <variable name="WIDGET" expression="" defaultValue="&quot;androidx.compose.foundation.layout.Box&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="WC" value="$WIDGET$ {&#10; $SELECTION$$END$ &#10; }" description="Surround with Column" toReformat="true" toShortenFQNames="true">
     <variable name="WIDGET" expression="&quot;androidx.compose.foundation.layout.Column&quot;" defaultValue="" alwaysStopAt="false" />
+    <context />
   </template>
 </templateSet>
