@@ -1,65 +1,6 @@
 <application>
-  <component name="CodeFoldingSettings">
-    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
-  </component>
-  <component name="CodeInsightSettings">
-    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
-    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
-    <option name="HIGHLIGHT_SCOPE" value="true" />
-    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-  </component>
-  <component name="CodeVisionSettings">
-    <option name="codeVisionGroupToPosition">
-      <map>
-        <entry key="inheritors" value="Default" />
-        <entry key="problems" value="Default" />
-        <entry key="references" value="Default" />
-        <entry key="vcs.code.vision" value="Default" />
-      </map>
-    </option>
-    <option name="disabledCodeVisionProviderIds">
-      <set>
-        <option value="vcs.code.vision" />
-      </set>
-    </option>
-  </component>
-  <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
-  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
-    <option name="ENABLE_RENDERED_DOC" value="true" />
-  </component>
-  <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
-    <settingsMapElement>
-      <JAVA.JavaLens>
-        <JavaCodeVisionSettings>
-          <option name="showImplementations" value="true" />
-          <option name="showUsages" value="true" />
-        </JavaCodeVisionSettings>
-      </JAVA.JavaLens>
-      <kotlin.kotlin.references.types.hints>
-        <Settings>
-          <option name="functionReturnType" value="true" />
-          <option name="localVariableType" value="true" />
-          <option name="parameterType" value="true" />
-          <option name="propertyType" value="true" />
-        </Settings>
-      </kotlin.kotlin.references.types.hints>
-      <JAVA.annotation.hints>
-        <Settings>
-          <option name="showInferred" value="true" />
-        </Settings>
-      </JAVA.annotation.hints>
-    </settingsMapElement>
-  </component>
-  <component name="JavaCodeFoldingSettings">
-    <option name="collapseAccessors" value="true" />
-    <option name="collapseMultilineComments" value="true" />
-  </component>
-  <component name="JetEditorOptions">
-    <option name="donTShowConversionDialog" value="true" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />

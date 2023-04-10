@@ -1,6 +1,5 @@
 <application>
   <component name="DebuggerSettings">
-    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -94,16 +93,6 @@
   </component>
   <component name="XDebuggerSettings">
     <data-views />
-    <general>
-      <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
-    </general>
-    <debuggers>
-      <debugger id="ObjectiveC">
-        <configuration>
-          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
-          <option name="VALUES_FILTER_ENABLED" value="false" />
-        </configuration>
-      </debugger>
-    </debuggers>
+    <general />
   </component>
 </application>
