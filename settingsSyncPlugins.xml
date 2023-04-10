@@ -10,7 +10,6 @@
                   <option value="com.intellij.modules.xml" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -45,7 +44,6 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -69,19 +67,6 @@
                   <option value="com.intellij.modules.platform" />
                 </set>
               </option>
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="com.dcm">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="Dart" />
-                  <option value="com.intellij.modules.platform" />
-                </set>
-              </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -201,19 +186,6 @@
             </PluginData>
           </value>
         </entry>
-        <entry key="com.ld.chatGPT-copilot">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.platform" />
-                  <option value="org.intellij.plugins.markdown" />
-                </set>
-              </option>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
         <entry key="com.localizely.flutter-intl">
           <value>
             <PluginData>
@@ -274,7 +246,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -287,7 +258,6 @@
                   <option value="org.jetbrains.kotlin" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -415,7 +385,6 @@
                   <option value="com.intellij.modules.vcs" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -517,18 +486,6 @@
                   <option value="com.intellij.modules.lang" />
                 </set>
               </option>
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="org.utbot.intellij.plugin.id">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.platform" />
-                </set>
-              </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
