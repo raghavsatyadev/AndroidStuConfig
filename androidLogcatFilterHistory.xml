@@ -1,13 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone  color" />
+    <option name="mostRecentlyUsed" value="package:com.lexmark.mobileone" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone  color" />
         <option value="package:com.lexmark.mobileone " />
         <option value="package:com.lexmark.mobileone currentKey" />
         <option value="package:com.lexmark.mobileone tim" />
-        <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone level:error " />
         <option value="package:com.lexmark.mobileone level:error fixIPPModel" />
         <option value=" level:error " />
