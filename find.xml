@@ -5,13 +5,9 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
+    <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.kt</mask>
     <mask>*.java</mask>
-    <mask>*.xml,*.kt</mask>
-    <mask>*.xml</mask>
-    <mask>*.gradle</mask>
-    <mask>*.dart</mask>
   </component>
 </application>
