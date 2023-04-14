@@ -1,6 +1,6 @@
 <application>
-  <component name="ChatGPTCopilotServerManager">
-    <selected>-1</selected>
-    <copilots />
-  </component>
+    <component name="ChatGPTCopilotServerManager">
+        <selected>-1</selected>
+        <copilots/>
+    </component>
 </application>

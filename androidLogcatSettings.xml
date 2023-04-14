@@ -1,5 +1,5 @@
 <application>
-  <component name="AndroidLogcatSettings">
-    <option name="mostRecentlyUsedFilterIsDefault" value="true" />
-  </component>
+    <component name="AndroidLogcatSettings">
+        <option name="mostRecentlyUsedFilterIsDefault" value="true"/>
+    </component>
 </application>

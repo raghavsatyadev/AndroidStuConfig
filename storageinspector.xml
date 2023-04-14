@@ -1,5 +1,5 @@
 <application>
-  <component name="StorageInspectorSettings">
-    <option name="analyticsStatus" value="false" />
-  </component>
+    <component name="StorageInspectorSettings">
+        <option name="analyticsStatus" value="false"/>
+    </component>
 </application>

@@ -1,35 +1,35 @@
 <application>
-  <component name="ConsoleFoldingSettings">
-    <option name="addedPositive">
-      <list>
-        <option value="Accessing hidden field" />
-        <option value="Accessing hidden field Landroid/app/LoadedApk" />
-        <option value="Accessing hidden method" />
-        <option value="Accessing hidden method Landroid/app/LoadedApk" />
-        <option value="af_haf.cpp:1426" />
-        <option value="caecxcontrol" />
-        <option value="camxcafioutil" />
-        <option value="cancelDraw" />
-        <option value="Choreographer" />
-        <option value="DequeueBuffer time" />
-        <option value="extent() != 1 for single value type" />
-        <option value="FA" />
-        <option value="Failed to resolve name. status" />
-        <option value="GetClientTargetProperty" />
-        <option value="nativeRelease" />
-        <option value="page_load_metrics_update_dispatcher" />
-        <option value="Service already running, using existing service" />
-        <option value="show(ime(), fromIme=true" />
-        <option value="showSoftInput" />
-        <option value="Skipped" />
-        <option value="socket_android" />
-        <option value="studio.deploy" />
-        <option value="StudioTransport" />
-        <option value="updateAcquireFence" />
-        <option value="ViewPostIme" />
-        <option value="ViewRootImpl" />
-        <option value="unsupported" />
-      </list>
-    </option>
-  </component>
+    <component name="ConsoleFoldingSettings">
+        <option name="addedPositive">
+            <list>
+                <option value="Accessing hidden field"/>
+                <option value="Accessing hidden field Landroid/app/LoadedApk"/>
+                <option value="Accessing hidden method"/>
+                <option value="Accessing hidden method Landroid/app/LoadedApk"/>
+                <option value="af_haf.cpp:1426"/>
+                <option value="caecxcontrol"/>
+                <option value="camxcafioutil"/>
+                <option value="cancelDraw"/>
+                <option value="Choreographer"/>
+                <option value="DequeueBuffer time"/>
+                <option value="extent() != 1 for single value type"/>
+                <option value="FA"/>
+                <option value="Failed to resolve name. status"/>
+                <option value="GetClientTargetProperty"/>
+                <option value="nativeRelease"/>
+                <option value="page_load_metrics_update_dispatcher"/>
+                <option value="Service already running, using existing service"/>
+                <option value="show(ime(), fromIme=true"/>
+                <option value="showSoftInput"/>
+                <option value="Skipped"/>
+                <option value="socket_android"/>
+                <option value="studio.deploy"/>
+                <option value="StudioTransport"/>
+                <option value="updateAcquireFence"/>
+                <option value="ViewPostIme"/>
+                <option value="ViewRootImpl"/>
+                <option value="unsupported"/>
+            </list>
+        </option>
+    </component>
 </application>

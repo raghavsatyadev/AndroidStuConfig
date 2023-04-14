@@ -1,5 +1,5 @@
 <application>
-  <component name="EditorRichCopySettings">
-    <option name="schemeName" value="Darcula" />
-  </component>
+    <component name="EditorRichCopySettings">
+        <option name="schemeName" value="Darcula"/>
+    </component>
 </application>

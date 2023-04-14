@@ -1,6 +1,6 @@
 <application>
-  <component name="DeviceMirroringSettings">
-    <option name="activateOnAppLaunch" value="false" />
-    <option name="deviceMirroringEnabled" value="true" />
-  </component>
+    <component name="DeviceMirroringSettings">
+        <option name="activateOnAppLaunch" value="false"/>
+        <option name="deviceMirroringEnabled" value="true"/>
+    </component>
 </application>

@@ -1,65 +1,69 @@
 <application>
-  <component name="SonarLintGlobalSettings">
-    <option name="autoTrigger" value="false" />
-    <option name="fileExclusions">
-      <list>
-        <option value="**/*Directions.java" />
-        <option value="**/*_Impl.java" />
-        <option value="**/*Args.java" />
-        <option value="**/*Binding.java" />
-        <option value="openCV/**" />
-      </list>
-    </option>
-    <option name="rulesByKey">
-      <map>
-        <entry key="kotlin:S1067">
-          <value>
-            <Rule key="kotlin:S1067" />
-          </value>
-        </entry>
-        <entry key="kotlin:S117">
-          <value>
-            <Rule active="false" key="kotlin:S117" />
-          </value>
-        </entry>
-        <entry key="kotlin:S1186">
-          <value>
-            <Rule active="false" key="kotlin:S1186" />
-          </value>
-        </entry>
-        <entry key="kotlin:S122">
-          <value>
-            <Rule key="kotlin:S122" />
-          </value>
-        </entry>
-        <entry key="kotlin:S138">
-          <value>
-            <Rule key="kotlin:S138" />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="sonarQubeServers">
-      <list>
-        <SonarQubeServer>
-          <option name="hostUrl" value="http://localhost:9000/" />
-          <token>dfd9dfdbdfdadff5dfcedf9adf9bdfcfdf9fdfc9dfc9df9adf9bdf9edfc8dfc9df98dfcfdf99df9adf98dfcfdf98dfcbdfc8df98dfc8dfc8df9ddfc9dfcedf92dfcfdf98df92df93dfcfdfc8df99df9cdf9bdf9ddf9fdf9a</token>
-          <option name="name" value="LocalHost" />
-        </SonarQubeServer>
-        <SonarQubeServer>
-          <option name="hostUrl" value="https://sonarcloud.io" />
-          <token>dfc8df9edf98df9edfcbdfcedfcbdf9adfc8dfccdf9ddfcfdf9edf9cdf99df9ddfcedfccdf99df9fdf93df9ddfc9dfcbdfcbdfcbdf93dfcedf9ddf9edf92dfcbdf99df98df9ddf9cdfccdfccdfcbdfc9</token>
-          <option name="name" value="SonarCloud" />
-          <organizationKey>raghavsatyadev</organizationKey>
-        </SonarQubeServer>
-      </list>
-    </option>
-    <rules>
-      <Rule key="kotlin:S1067" />
-      <Rule active="false" key="kotlin:S1186" />
-      <Rule key="kotlin:S122" />
-      <Rule active="false" key="kotlin:S117" />
-      <Rule key="kotlin:S138" />
-    </rules>
-  </component>
+    <component name="SonarLintGlobalSettings">
+        <option name="autoTrigger" value="false"/>
+        <option name="fileExclusions">
+            <list>
+                <option value="**/*Directions.java"/>
+                <option value="**/*_Impl.java"/>
+                <option value="**/*Args.java"/>
+                <option value="**/*Binding.java"/>
+                <option value="openCV/**"/>
+            </list>
+        </option>
+        <option name="rulesByKey">
+            <map>
+                <entry key="kotlin:S1067">
+                    <value>
+                        <Rule key="kotlin:S1067"/>
+                    </value>
+                </entry>
+                <entry key="kotlin:S117">
+                    <value>
+                        <Rule active="false" key="kotlin:S117"/>
+                    </value>
+                </entry>
+                <entry key="kotlin:S1186">
+                    <value>
+                        <Rule active="false" key="kotlin:S1186"/>
+                    </value>
+                </entry>
+                <entry key="kotlin:S122">
+                    <value>
+                        <Rule key="kotlin:S122"/>
+                    </value>
+                </entry>
+                <entry key="kotlin:S138">
+                    <value>
+                        <Rule key="kotlin:S138"/>
+                    </value>
+                </entry>
+            </map>
+        </option>
+        <option name="sonarQubeServers">
+            <list>
+                <SonarQubeServer>
+                    <option name="hostUrl" value="http://localhost:9000/"/>
+                    <token>
+                        dfd9dfdbdfdadff5dfcedf9adf9bdfcfdf9fdfc9dfc9df9adf9bdf9edfc8dfc9df98dfcfdf99df9adf98dfcfdf98dfcbdfc8df98dfc8dfc8df9ddfc9dfcedf92dfcfdf98df92df93dfcfdfc8df99df9cdf9bdf9ddf9fdf9a
+                    </token>
+                    <option name="name" value="LocalHost"/>
+                </SonarQubeServer>
+                <SonarQubeServer>
+                    <option name="hostUrl" value="https://sonarcloud.io"/>
+                    <token>
+                        dfc8df9edf98df9edfcbdfcedfcbdf9adfc8dfccdf9ddfcfdf9edf9cdf99df9ddfcedfccdf99df9fdf93df9ddfc9dfcbdfcbdfcbdf93dfcedf9ddf9edf92dfcbdf99df98df9ddf9cdfccdfccdfcbdfc9
+                    </token>
+                    <option name="name" value="SonarCloud"/>
+                    <organizationKey>raghavsatyadev</organizationKey>
+                </SonarQubeServer>
+            </list>
+        </option>
+        <rules>
+            <Rule key="kotlin:S1067"/>
+            <Rule active="false" key="kotlin:S1186"/>
+            <Rule key="kotlin:S122"/>
+            <Rule active="false" key="kotlin:S117"/>
+            <Rule key="kotlin:S138"/>
+        </rules>
+    </component>
 </application>
