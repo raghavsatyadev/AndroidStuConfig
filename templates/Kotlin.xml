@@ -1,0 +1,9 @@
+<templateSet group="Kotlin">
+    <template name="lerun" value="$Variable$?.let {&#10;&#10;}?: run {&#10;    &#10;}"
+              description="Writes null check with run function" toReformat="false" toShortenFQNames="true">
+        <variable name="Variable" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>

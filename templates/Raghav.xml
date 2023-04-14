@@ -1,0 +1,153 @@
+<templateSet group="Raghav">
+    <template name="alogef"
+              value="AppLog.INSTANCE.loge(false, &quot;$FileName$&quot;, &quot;$MethodName$&quot;, e, new Exception());"
+              description="Error log with Applog#loge" toReformat="true" toShortenFQNames="true">
+        <variable name="FileName" expression="fileName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="MethodName" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="JAVA_EXPRESSION" value="true"/>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogek" value="AppLog.loge(false, kotlinFileName, &quot;$MethodName$&quot;, e, Exception())"
+              description="Error log with Applog#loge" toReformat="true" toShortenFQNames="true">
+        <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogsk"
+              value="AppLog.loge(true, kotlinFileName, &quot;$MethodName$&quot;, $Statement$, Exception())"
+              description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
+        <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogs"
+              value="AppLog.INSTANCE.loge(true, &quot;$ClassName$&quot;, &quot;$MethodName$&quot;, $Statement$, new Exception());"
+              description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
+        <variable name="ClassName" expression="fileName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="MethodName" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="kdoc" value=" /**&#10; * $Statement$&#10; */" description="add Kdoc implementation"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="KOTLIN_CLASS" value="true"/>
+            <option name="KOTLIN_EXPRESSION" value="true"/>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+            <option name="KOTLIN_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="alogt"
+              value="AppLog.INSTANCE.loge(false, &quot;$FileName$&quot;, &quot;$MethodName$&quot;, throwable, new Exception());"
+              description="Throwable log with Applog#logt" toReformat="true" toShortenFQNames="true">
+        <variable name="FileName" expression="fileName()" defaultValue="" alwaysStopAt="false"/>
+        <variable name="MethodName" expression="methodName()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="JAVA_EXPRESSION" value="true"/>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogtk" value="AppLog.loge(false, kotlinFileName, &quot;$MethodName$&quot;, throwable, Exception())"
+              description="Throwable log with Applog#logt" toReformat="true" toShortenFQNames="true">
+        <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogesk"
+              value="val e = Exception($Statement$)&#10;AppLog.loge(false, kotlinFileName, &quot;$MethodName$&quot;, e, e)"
+              description="Error log with Applog#loge for custom exception" toReformat="true" toShortenFQNames="true">
+        <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="snack" value="Snackbar.make(binding.root, $Statement$, Snackbar.LENGTH_LONG).show()"
+              description="Creates a normal Snackbar call with binding.root" toReformat="false" toShortenFQNames="true">
+        <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="KOTLIN_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="setupFrag"
+              value="class $FragmentName$Fragment : CoreFragment&lt;Fragment$FragmentName$Binding&gt;() {&#10;    private val viewModel: $FragmentName$ViewModel by viewModels()&#10;    private val args: $FragmentName$FragmentArgs by navArgs()&#10;&#10;    override fun createReference(view: View, savedInstanceState: Bundle?) {&#10;    }&#10;&#10;    override fun createBinding(&#10;        layoutInflater: LayoutInflater,&#10;        container: ViewGroup?,&#10;        savedInstanceState: Bundle?,&#10;    ) = Fragment$FragmentName$Binding.inflate(layoutInflater, container, false)&#10;&#10;    override fun setListeners(isEnabled: Boolean) {&#10;    }&#10;&#10;    override fun getProgressBar(): LoaderBinding? = null&#10;}&#10;&#10;class $FragmentName$ViewModel : ViewModel() {&#10;}"
+              description="sets up fragment with CoreFragment and ViewMode" toReformat="true" toShortenFQNames="true">
+        <variable name="FragmentName" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="KOTLIN_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="setupAdapter"
+              value="class $ItemName$Adapter :&#10;    GenRecyclerAdapter&lt;$ModelName$, Item$ItemName$Binding, $ItemName$Holder&gt;() {&#10;    override fun creatingViewHolder(&#10;        parent: ViewGroup,&#10;        viewType: Int,&#10;        from: LayoutInflater,&#10;    ): $ItemName$Holder {&#10;        return $ItemName$Holder.getInstance(Item$ItemName$Binding.inflate(from, parent, false),&#10;            itemClickListener)&#10;    }&#10;}&#10;&#10;class $ItemName$Holder(&#10;    binding: Item$ItemName$Binding,&#10;    itemClickListener: CustomClickListener?,&#10;) : GenObjectHolder&lt;$ModelName$, Item$ItemName$Binding&gt;(binding, itemClickListener) {&#10;    companion object {&#10;        fun getInstance(&#10;            binding: Item$ItemName$Binding,&#10;            itemClickListener: CustomClickListener?,&#10;        ): $ItemName$Holder {&#10;            return $ItemName$Holder(binding, itemClickListener)&#10;        }&#10;    }&#10;&#10;    override fun bind(model: $ModelName$, itemViewType: Int, position: Int, itemCount: Int) {&#10;        with(binding) {&#10;            with(model) {&#10;&#10;            }&#10;        }&#10;    }&#10;}"
+              description="sets up Adapter and Holder class with Generic Classes" toReformat="true"
+              toShortenFQNames="true">
+        <variable name="ItemName" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="ModelName" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="KOTLIN_TOPLEVEL" value="true"/>
+        </context>
+    </template>
+    <template name="gint"
+              value="companion object {&#10;    fun getIntentObject(&#10;        context: Context,&#10;        bundle: Bundle = Bundle.EMPTY,&#10;    ): Intent = Intent(context, $ClassName$::class.java).apply { putExtras(bundle) }&#10;}"
+              description="write getIntent method for Activity" toReformat="true" toShortenFQNames="true">
+        <variable name="ClassName" expression="kotlinClassName()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="KOTLIN_CLASS" value="true"/>
+        </context>
+    </template>
+    <template name="alogStack" value="AppLog.logE(log: $Message$, stackTrace: e.stackTrace);"
+              description="AppLog.logE implementation with stack trace" toReformat="true" toShortenFQNames="true">
+        <variable name="Message" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="aloge" value="AppLog.logE(log: $Message$);" description="AppLog.logE implementation"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="Message" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogd" value="AppLog.logD(log: $Message$);" description="AppLog.logD implementation"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="Message" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="alogw" value="AppLog.logW(log: $Message$);" description="AppLog.logW implementation"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="Message" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="tag" value="public static final String TAG = $ClassName$.class.getSimpleName();"
+              description="adds TAG implementation" toReformat="true" toShortenFQNames="true">
+        <variable name="ClassName" expression="className()" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="JAVA_DECLARATION" value="true"/>
+            <option name="JAVA_STATEMENT" value="true"/>
+        </context>
+    </template>
+    <template name="slog" value="AppUtility.showToastLogDebug($STATEMENT$);" description="Adds Snackbar and Log both"
+              toReformat="false" toShortenFQNames="true">
+        <variable name="STATEMENT" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="DART_STATEMENT" value="true"/>
+        </context>
+    </template>
+</templateSet>

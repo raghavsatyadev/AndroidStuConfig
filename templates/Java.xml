@@ -1,0 +1,7 @@
+<templateSet group="Java">
+    <template name="else-if" value="else if($CONDITION$){&#10;$END$&#10;} " description="Add else-if branch"
+              toReformat="true" toShortenFQNames="false">
+        <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context/>
+    </template>
+</templateSet>
