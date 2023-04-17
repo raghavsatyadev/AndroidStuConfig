@@ -1,6 +1,5 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myCopyOnSelection" value="true" />
     <option name="myShellPath" value="C:\windows\system32\cmd.exe" />
     <option name="myTabName" value="Local" />
   </component>
