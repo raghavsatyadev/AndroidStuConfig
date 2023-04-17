@@ -1,9 +1,0 @@
-<application>
-    <component name="KDocFormatter">
-        <option name="state">
-            <GlobalState>
-                <option name="addPunctuation" value="true"/>
-            </GlobalState>
-        </option>
-    </component>
-</application>

@@ -1,7 +1,0 @@
-<application>
-    <component name="com.github.evgenys91.machinet.common.settings.AppSettingsState">
-        <option name="email" value="raghavsatyadev@gmail.com"/>
-        <option name="junitVersion" value="4"/>
-        <option name="shouldOpenFile" value="true"/>
-    </component>
-</application>
