@@ -9,7 +9,8 @@
     <entry key="ide.text.editor.with.preview.show.floating.toolbar" value="false" />
     <entry key="gradle.version.catalogs.dynamic.support" value="true" />
     <entry key="feature.suggester.enable.suggesters" value="true" />
-    <entry key="suggest.all.run.configurations.from.context" value="true" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="debugger.new.tool.window.layout" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
