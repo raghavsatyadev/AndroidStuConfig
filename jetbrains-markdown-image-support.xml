@@ -1,10 +1,8 @@
 <application>
   <component name="MISConfigService">
     <option name="aliyunNewFilenameTemplate" value="images/${yyyyMMdd}/${UUID}.${Suffix}" />
-    <option name="localFileImageQuality" value="100" />
-    <option name="localFileNewFilenameTemplate" value="${Timestamp}.${Suffix}" />
-    <option name="localFileSavePathCustomText" value="/importantFiles/" />
-    <option name="localFileSavePathTemplate" value="Custom.." />
+    <option name="localFileNewFilenameTemplate" value="${MDFile}-${Timestamp}.${Suffix}" />
+    <option name="localFileSavePathTemplate" value="./assets/" />
     <option name="minioNewFilenameTemplate" value="images/${yyyyMMdd}/${UUID}.${Suffix}" />
     <option name="qiniuNewFilenameTemplate" value="images/${yyyyMMdd}/${UUID}.${Suffix}" />
   </component>
