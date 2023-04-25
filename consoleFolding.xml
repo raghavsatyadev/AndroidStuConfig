@@ -2,7 +2,10 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="cancelDraw" />
         <option value="Service" />
+        <option value="ViewPostIme" />
+        <option value="nativeRelease" />
       </list>
     </option>
   </component>
