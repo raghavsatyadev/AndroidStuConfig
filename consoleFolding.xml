@@ -3,9 +3,10 @@
     <option name="addedPositive">
       <list>
         <option value="cancelDraw" />
+        <option value="nativeRelease" />
         <option value="Service" />
         <option value="ViewPostIme" />
-        <option value="nativeRelease" />
+        <option value="nativeSetScreenProjection" />
       </list>
     </option>
   </component>
