@@ -4,6 +4,8 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.lexmark.mobileone " />
+        <option value="package:com." />
+        <option value="package:com.p" />
         <option value="package:com.lexmark.mobileone IPPData" />
         <option value="package:" />
       </list>
