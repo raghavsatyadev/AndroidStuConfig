@@ -1,12 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="remoteCon" />
+    <option name="mostRecentlyUsed" value="level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="level:error " />
         <option value="remoteCon" />
         <option value="remote" />
         <option value="package:com.lexmark.mobileone  level:error " />
-        <option value="level:error " />
         <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone " />
         <option value="Firebase" />
