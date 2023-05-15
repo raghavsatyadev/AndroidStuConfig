@@ -2,11 +2,18 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="camxncsintfqsee" />
+        <option value="camxncsservice" />
         <option value="cancelDraw" />
+        <option value="Error opening kernel wakelock" />
+        <option value="GetClientTargetProperty" />
+        <option value="JSON string is empty" />
         <option value="nativeRelease" />
+        <option value="nativeSetScreenProjection" />
         <option value="Service" />
         <option value="ViewPostIme" />
-        <option value="nativeSetScreenProjection" />
+        <option value="waterplugin" />
+        <option value="Unknown params" />
       </list>
     </option>
   </component>
