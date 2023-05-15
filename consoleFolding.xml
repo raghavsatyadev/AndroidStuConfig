@@ -6,14 +6,16 @@
         <option value="camxncsservice" />
         <option value="cancelDraw" />
         <option value="Error opening kernel wakelock" />
+        <option value="Failed to apply optimization" />
         <option value="GetClientTargetProperty" />
         <option value="JSON string is empty" />
         <option value="nativeRelease" />
         <option value="nativeSetScreenProjection" />
         <option value="Service" />
+        <option value="Unknown params" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="Unknown params" />
+        <option value="Can't process request" />
       </list>
     </option>
   </component>
