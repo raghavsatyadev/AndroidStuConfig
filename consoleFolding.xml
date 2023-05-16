@@ -4,6 +4,7 @@
       <list>
         <option value="camxncsintfqsee" />
         <option value="camxncsservice" />
+        <option value="Can't process request" />
         <option value="cancelDraw" />
         <option value="Error opening kernel wakelock" />
         <option value="Failed to apply optimization" />
@@ -15,7 +16,7 @@
         <option value="Unknown params" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="Can't process request" />
+        <option value="updateAcquireFence" />
       </list>
     </option>
   </component>
