@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToKebabOrCamelCaseCaseAction" />
-        <option name="description" value="Toggle: kebab-case / camelCase" />
-        <option name="textWithMnemonic" value="kebab-case / camelCase" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
+        <option name="description" value="Toggle: SCREAMING_SNAKE_CASE / camelCase" />
+        <option name="textWithMnemonic" value="SCREAMING_SNAKE_CASE / camelCase" />
       </UniversalActionModel>
     </option>
   </component>
