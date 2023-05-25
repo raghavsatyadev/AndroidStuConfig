@@ -2,6 +2,8 @@
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
+  <action id="$ShowTranslationDialogAction" />
+  <action id="$TranslateAndReplaceAction" />
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
