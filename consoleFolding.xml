@@ -2,6 +2,7 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="(HTTPLog)-Static: isSBSettingEnabled false" />
         <option value="camxncsintfqsee" />
         <option value="camxncsservice" />
         <option value="Can't process request" />
@@ -14,9 +15,10 @@
         <option value="nativeSetScreenProjection" />
         <option value="Service" />
         <option value="Unknown params" />
+        <option value="updateAcquireFence" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="updateAcquireFence" />
+        <option value="collect last valueType : 55" />
       </list>
     </option>
   </component>
