@@ -2,6 +2,7 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="(HTTPLog)-Static: isSBSettingEnabled false" />
         <option value="camxncsintfqsee" />
         <option value="camxncsservice" />
         <option value="Can't process request" />
@@ -20,6 +21,7 @@
         <option value="ViewPostIme" />
         <option value="waterplugin" />
         <option value="tagSocket(3) with statsTag=0xffffffff" />
+        <option value="collect last valueType : 55" />
       </list>
     </option>
   </component>
