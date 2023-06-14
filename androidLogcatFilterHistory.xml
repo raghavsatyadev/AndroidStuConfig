@@ -4,6 +4,20 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.lexmark.mobileone " />
+        <option value="Consent" />
+        <option value="level:warn consent" />
+        <option value="level:warn " />
+        <option value="level:error " />
+        <option value="remoteCon" />
+        <option value="remote" />
+        <option value="package:com.lexmark.mobileone  level:error " />
+        <option value="package:com.lexmark.mobileone" />
+        <option value="Firebase" />
+        <option value="package:com.lexmark.mobileone level:error " />
+        <option value="package:com." />
+        <option value="package:com.p" />
+        <option value="package:com.lexmark.mobileone IPPData" />
+        <option value="package:" />
       </list>
     </option>
   </component>
