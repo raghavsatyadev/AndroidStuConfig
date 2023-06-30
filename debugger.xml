@@ -1,5 +1,6 @@
 <application>
   <component name="DebuggerSettings">
+    <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -94,12 +95,5 @@
   <component name="XDebuggerSettings">
     <data-views />
     <general />
-    <debuggers>
-      <debugger id="ObjectiveC">
-        <configuration>
-          <nt-symbol-settings />
-        </configuration>
-      </debugger>
-    </debuggers>
   </component>
 </application>
