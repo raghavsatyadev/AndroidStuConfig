@@ -10,6 +10,7 @@
     <entry key="ide.text.editor.with.preview.show.floating.toolbar" value="false" />
     <entry key="gradle.version.catalogs.dynamic.support" value="true" />
     <entry key="feature.suggester.enable.suggesters" value="true" />
+    <entry key="ide.instant.shutdown" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
