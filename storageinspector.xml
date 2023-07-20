@@ -1,5 +1,7 @@
 <application>
   <component name="StorageInspectorSettings">
+    <option name="IDeviceBinariesPath" value="/opt/homebrew/bin/" />
+    <option name="adbPath" value="$USER_HOME$/Documents/Raghav/Software/Android/SDK/platform-tools/adb" />
     <option name="analyticsStatus" value="false" />
   </component>
 </application>
