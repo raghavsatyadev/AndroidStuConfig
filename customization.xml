@@ -94,17 +94,20 @@
     </group>
     <group value="Git.ContextMenu" is_group="true" forse_popup="true" action_type="1" position="8">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Compare.SameVersion" is_action="true" action_type="1" position="9">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="ChangesView.Revert" is_action="true" action_type="1" position="10">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="Git.ContextMenu" icon="ActivateVersionControlToolWindow" />
