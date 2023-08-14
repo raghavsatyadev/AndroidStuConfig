@@ -16,27 +16,11 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.Log.ChangesBrowser.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="22">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ChangesViewToolbar" is_group="true" forse_popup="false" action_type="-1" position="21">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="ChangesViewToolbar" is_group="true" forse_popup="false" action_type="-1" position="21">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="StringManipulation.Group.SwitchCase" is_group="true" forse_popup="false" action_type="-1" position="20">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="StringManipulation.Group.SwitchCase" is_group="true" forse_popup="false" action_type="-1" position="20">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="StringManipulation.Group.Main" is_group="true" forse_popup="false" action_type="-1" position="19">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -96,14 +80,6 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="XDebugger.ToolWindow.TopToolbar3" is_group="true" forse_popup="false" action_type="-1" position="12">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="XDebugger.ToolWindow.TopToolbar3.Extra" is_group="true" forse_popup="false" action_type="-1" position="11">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="XDebugger.ToolWindow.TopToolbar3.Extra" is_group="true" forse_popup="false" action_type="-1" position="11">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
@@ -112,19 +88,7 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="NavBarToolBar" is_group="true" forse_popup="false" action_type="-1" position="10">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="NavbarPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="9">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="NavbarPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="9">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ScopeViewPopupMenu" is_group="true" forse_popup="false" action_type="-1" position="8">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -164,33 +128,34 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="MainMenu" is_group="true" forse_popup="false" action_type="-1" position="0">
-      <path value="root" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="Vcs.Push" is_action="true" action_type="1" position="3">
       <path value="root" />
-      <path value="Main Toolbar Left" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Git.Fetch" is_action="true" action_type="1" position="4">
       <path value="root" />
-      <path value="Main Toolbar Left" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Git.ContextMenu" is_group="true" forse_popup="true" action_type="1" position="8">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Compare.SameVersion" is_action="true" action_type="1" position="9">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="ChangesView.Revert" is_action="true" action_type="1" position="10">
       <path value="root" />
-      <path value="Main Toolbar Right" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="Git.ContextMenu" icon="ActivateVersionControlToolWindow" />
