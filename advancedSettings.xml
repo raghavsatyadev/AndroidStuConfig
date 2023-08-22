@@ -1,0 +1,10 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="ide.always.show.tool.window.header.icons" value="true" />
+        <entry key="ide.macos.disable.native.shortcut.symbols" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
