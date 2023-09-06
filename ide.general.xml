@@ -11,10 +11,10 @@
     <entry key="ide.experimental.ui" value="true" />
     <entry key="feature.suggester.enable.suggesters" value="true" />
     <entry key="external.system.auto.import.disabled" value="true" />
+    <entry key="ide.browser.jcef.gpu.disable" value="true" />
     <entry key="debugger.new.tool.window.layout" value="true" />
     <entry key="ide.experimental.ui.inter.font" value="false" />
     <entry key="idea.plugins.compatible.build" value="" />
-    <entry key="ide.browser.jcef.gpu.disable" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
