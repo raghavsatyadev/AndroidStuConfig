@@ -1,0 +1,10 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="onboardingCompleted" value="true" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1695368015345">What’s the equivalent of RecyclerView in Compose?</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>
