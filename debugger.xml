@@ -98,6 +98,7 @@
     <debuggers>
       <debugger id="ObjectiveC">
         <configuration>
+          <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
           <nt-symbol-settings />
         </configuration>
       </debugger>
