@@ -1,0 +1,9 @@
+<application>
+  <component name="MISConfigService">
+    <option name="aliyunNewFilenameTemplate" value="images/${yyyyMMdd}/${UUID}.${Suffix}" />
+    <option name="localFileNewFilenameTemplate" value="${MDFile}-${Timestamp}.${Suffix}" />
+    <option name="localFileSavePathTemplate" value="./assets/" />
+    <option name="minioNewFilenameTemplate" value="images/${yyyyMMdd}/${UUID}.${Suffix}" />
+    <option name="qiniuNewFilenameTemplate" value="images/${yyyyMMdd}/${UUID}.${Suffix}" />
+  </component>
+</application>
