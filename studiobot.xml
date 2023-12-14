@@ -1,11 +1,11 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="onboardingCompleted" value="true" />
     <option name="queryHistory">
       <list>
         <historyEntry timestamp="1695374037606">get country codes in flutter</historyEntry>
         <historyEntry timestamp="1695368015345">What’s the equivalent of RecyclerView in Compose?</historyEntry>
       </list>
     </option>
+    <option name="shareContext" value="true" />
   </component>
 </application>
