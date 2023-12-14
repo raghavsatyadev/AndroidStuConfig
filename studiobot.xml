@@ -1,5 +1,6 @@
 <application>
   <component name="StudioBotSettings">
+    <option name="onboardedVersion" value="2" />
     <option name="queryHistory">
       <list>
         <historyEntry timestamp="1695374037606">get country codes in flutter</historyEntry>
