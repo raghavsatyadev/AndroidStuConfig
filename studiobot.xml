@@ -3,6 +3,11 @@
     <option name="onboardedVersion" value="2" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1703422447863">Explain: (AuthUtil.kt:123) : loginGoogle : 16: Cannot find a matching credential.
+com.google.android.gms.common.api.ApiException: 16: Cannot find a matching credential.
+at com.google.android.gms.common.api.internal.TaskUtil.setResultOrApiException(com.google.android.gms:play-services-base@@18.0.1:4)
+at com.google.android.gms.internal.auth-api.zbbc.zbb(com.google.android.gms:play-services-auth@@20.7.0:1)
+at com.google.android.gms.internal.auth-api.zbab.zba(com.google.android.gms:play-services-auth@@20.7.0:4) with tag AppLog</historyEntry>
         <historyEntry timestamp="1695374037606">get country codes in flutter</historyEntry>
         <historyEntry timestamp="1695368015345">What’s the equivalent of RecyclerView in Compose?</historyEntry>
       </list>
