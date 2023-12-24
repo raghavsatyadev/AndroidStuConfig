@@ -1,5 +1,9 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="StreamingToolbarVirtualDevice" is_group="true" forse_popup="false" action_type="-1" position="24">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Vcs.Operations.Popup" is_group="true" forse_popup="false" action_type="-1" position="23">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
@@ -61,6 +65,10 @@
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="RunTab.TopToolbar.More" is_group="true" forse_popup="false" action_type="-1" position="16">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="StreamingToolbarPhysicalDevice" is_group="true" forse_popup="false" action_type="-1" position="15">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -68,11 +76,15 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Markdown.Toolbar.Floating" is_group="true" forse_popup="false" action_type="-1" position="14">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Floating.CodeToolbar" is_group="true" forse_popup="false" action_type="-1" position="14">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Vcs.FileHistory.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="13">
+    <group value="Floating.CodeToolbar" is_group="true" forse_popup="false" action_type="-1" position="13">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -80,7 +92,7 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="StreamingToolbarVirtualDevice" is_group="true" forse_popup="false" action_type="-1" position="12">
+    <group value="Vcs.FileHistory.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="12">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>

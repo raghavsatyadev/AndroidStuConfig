@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="ENABLE_SECOND_REFORMAT" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
@@ -7,6 +8,7 @@
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE:PREVIEW" />
+    <option name="SHOW_INLINE_DIALOG" value="false" />
   </component>
   <component name="JetEditorOptions">
     <option name="donTShowConversionDialog" value="true" />

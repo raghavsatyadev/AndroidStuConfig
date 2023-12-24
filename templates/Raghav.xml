@@ -123,4 +123,9 @@
       <option name="DART_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="fuhori" value="app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;app:layout_constraintStart_toStartOf=&quot;parent&quot;" description="Adds horizontal constraints to expand fully" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+    </context>
+  </template>
 </templateSet>
