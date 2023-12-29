@@ -1,5 +1,6 @@
 <application>
   <component name="StudioBotSettings">
+    <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="2" />
     <option name="shareContext" value="true" />
   </component>
