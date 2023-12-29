@@ -1,17 +1,6 @@
 <application>
   <component name="StudioBotSettings">
     <option name="onboardedVersion" value="2" />
-    <option name="queryHistory">
-      <list>
-        <historyEntry timestamp="1703836180415">Explain: (LoginActivity.kt:34) : handleLoginError: GOOGLE - GENERAL : 12500:
-com.google.android.gms.common.api.ApiException: 12500:
-at com.google.android.gms.common.internal.ApiExceptionUtil.fromStatus(com.google.android.gms:play-services-base@@18.0.1:3)
-at com.google.android.gms.auth.api.signin.GoogleSignIn.getSignedInAccountFromIntent(com.google.android.gms:play-services-auth@@20.7.0:3)
-at io.github.raghavsatyadev.support.firebase.AuthUtil$googleSignInLauncher$1.onResult(AuthUtil.kt:53) with tag AppLog</historyEntry>
-        <historyEntry timestamp="1695374037606">get country codes in flutter</historyEntry>
-        <historyEntry timestamp="1695368015345">What’s the equivalent of RecyclerView in Compose?</historyEntry>
-      </list>
-    </option>
     <option name="shareContext" value="true" />
   </component>
 </application>
