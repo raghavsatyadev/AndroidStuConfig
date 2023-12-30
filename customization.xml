@@ -4,6 +4,10 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="StreamingToolbarVirtualDevice" is_group="true" forse_popup="false" action_type="-1" position="24">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Vcs.Operations.Popup" is_group="true" forse_popup="false" action_type="-1" position="23">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
@@ -72,6 +76,10 @@
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="StreamingToolbarPhysicalDevice" is_group="true" forse_popup="false" action_type="-1" position="15">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="Markdown.Toolbar.Floating" is_group="true" forse_popup="false" action_type="-1" position="15">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
@@ -89,6 +97,10 @@
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="Vcs.FileHistory.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="13">
+      <path value="root" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Vcs.FileHistory.Toolbar" is_group="true" forse_popup="false" action_type="-1" position="12">
       <path value="root" />
       <option name="myInitialPosition" value="-1" />
     </group>
@@ -230,6 +242,12 @@
       <path value="Main Toolbar" />
       <path value="Left" />
       <path value="VCS Group" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GradleKiller.kill" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <action id="Git.ContextMenu" icon="ActivateVersionControlToolWindow" />
