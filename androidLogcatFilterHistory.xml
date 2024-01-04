@@ -3,6 +3,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="appcheck" />
         <option value="package:io.github.raghavsatyadev.sundaramgold" />
         <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone " />

@@ -2,6 +2,15 @@
   <component name="StudioBotSettings">
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="2" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1704365723495">Explain: (LoginActivity.kt:80) : handleLoginError: GOOGLE - FIRESTORE_USER_NOT_CREATED : PERMISSION_DENIED: Missing or insufficient permissions.
+com.google.firebase.firestore.FirebaseFirestoreException: PERMISSION_DENIED: Missing or insufficient permissions.
+at com.google.firebase.firestore.util.Util.exceptionFromStatus(Util.java:113)
+at com.google.firebase.firestore.core.SyncEngine.notifyUser(SyncEngine.java:591)
+at com.google.firebase.firestore.core.SyncEngine.handleRejectedWrite(SyncEngine.java:473) with tag AppLog</historyEntry>
+      </list>
+    </option>
     <option name="shareContext" value="true" />
   </component>
 </application>
