@@ -3,6 +3,7 @@
     <option name="settings">
       <map>
         <entry key="git.use.schannel.on.windows" value="true" />
+        <entry key="gradle.download.sources" value="true" />
         <entry key="ide.always.show.tool.window.header.icons" value="true" />
         <entry key="ide.macos.disable.native.shortcut.symbols" value="true" />
       </map>
