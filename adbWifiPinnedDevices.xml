@@ -1,5 +1,0 @@
-<application>
-  <component name="PinDeviceService">
-    <option name="pinnedDevices" value="[{&quot;id&quot;:&quot;192.168.1.101:5555&quot;,&quot;serialNumber&quot;:&quot;64e3f5b9&quot;,&quot;name&quot;:&quot;Xiaomi M2012K11I&quot;,&quot;address&quot;:&quot;192.168.1.101&quot;,&quot;port&quot;:5555,&quot;androidVersion&quot;:&quot;13&quot;,&quot;apiLevel&quot;:&quot;33&quot;}]" />
-  </component>
-</application>
