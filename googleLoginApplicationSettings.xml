@@ -7,9 +7,9 @@
           <value>
             <set>
               <option value="User Info" />
+              <option value="Firebase" />
               <option value="Android Vitals" />
               <option value="Studio Bot" />
-              <option value="Firebase" />
             </set>
           </value>
         </entry>
