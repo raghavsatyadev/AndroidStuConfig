@@ -1,30 +1,10 @@
 <code_scheme name="Default" version="173">
-  <AndroidXmlCodeStyleSettings>
-    <option name="LAYOUT_SETTINGS">
-      <value>
-        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
-      </value>
-    </option>
-    <option name="MANIFEST_SETTINGS">
-      <value>
-        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
-      </value>
-    </option>
-    <option name="OTHER_SETTINGS">
-      <value>
-        <option name="INSERT_LINE_BREAK_AFTER_LAST_ATTRIBUTE" value="true" />
-      </value>
-    </option>
-  </AndroidXmlCodeStyleSettings>
-  <JetCodeStyleSettings>
-    <option name="ALLOW_TRAILING_COMMA" value="true" />
-    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
-  </JetCodeStyleSettings>
   <codeStyleSettings language="JAVA">
-    <option name="RIGHT_MARGIN" value="80" />
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="1" />
+    <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="XML">
-    <option name="BLOCK_COMMENT_ADD_SPACE" value="true" />
     <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
@@ -136,8 +116,5 @@
         </section>
       </rules>
     </arrangement>
-  </codeStyleSettings>
-  <codeStyleSettings language="kotlin">
-    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </codeStyleSettings>
 </code_scheme>
