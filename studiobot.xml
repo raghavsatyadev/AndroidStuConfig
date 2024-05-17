@@ -3,5 +3,57 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1715941341531">modify to add collapsing toolbar. make sure to properly change the XML to coordinator layout
+
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;androidx.constraintlayout.widget.ConstraintLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+    xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    android:layout_width=&quot;match_parent&quot;
+    android:layout_height=&quot;match_parent&quot;
+    tools:context=&quot;.ui.dashboard.DashboardActivity&quot;&gt;
+
+    &lt;com.google.android.material.appbar.MaterialToolbar
+        android:id=&quot;@+id/toolbar&quot;
+        android:layout_width=&quot;0dp&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        android:theme=&quot;@style/DashboardToolbar&quot;
+        app:layout_constraintEnd_toEndOf=&quot;parent&quot;
+        app:layout_constraintStart_toStartOf=&quot;parent&quot;
+        app:layout_constraintTop_toTopOf=&quot;parent&quot;
+        app:titleCentered=&quot;true&quot;
+        app:titleTextAppearance=&quot;@style/ToolBarTextStyle.DashboardHidden&quot; /&gt;
+
+    &lt;androidx.fragment.app.FragmentContainerView
+        android:id=&quot;@+id/nav_host_fragment&quot;
+        android:name=&quot;androidx.navigation.fragment.NavHostFragment&quot;
+        android:layout_width=&quot;0dp&quot;
+        android:layout_height=&quot;0dp&quot;
+        app:defaultNavHost=&quot;true&quot;
+        app:layout_constraintBottom_toTopOf=&quot;@+id/nav_bottom&quot;
+        app:layout_constraintEnd_toEndOf=&quot;parent&quot;
+        app:layout_constraintStart_toStartOf=&quot;parent&quot;
+        app:layout_constraintTop_toBottomOf=&quot;@id/toolbar&quot;
+        app:navGraph=&quot;@navigation/dashboard_nav&quot; /&gt;
+
+    &lt;com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id=&quot;@+id/nav_bottom&quot;
+        android:layout_width=&quot;0dp&quot;
+        android:layout_height=&quot;wrap_content&quot;
+        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;
+        app:layout_constraintEnd_toEndOf=&quot;parent&quot;
+        app:layout_constraintStart_toStartOf=&quot;parent&quot;
+        app:menu=&quot;@menu/bottom_navigation_menu&quot; /&gt;
+&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</historyEntry>
+        <historyEntry timestamp="1715940540438">make android kotlin example of bottom navigation with navigation component with below requirements
+1.  Use FragmentContainerView
+2. make 2 nav button in bottom nav with home and profile
+3. use material toolbar which changes the title as per currently selected fragment
+4. I don't need fragment class and xml</historyEntry>
+      </list>
+    </option>
   </component>
 </application>
