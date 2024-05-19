@@ -5,10 +5,26 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1716100951867">what  to include in my_ad_services_config</historyEntry>
-        <historyEntry timestamp="1716100833391">Manifest merger failed : Attribute property#android.adservices.AD_SERVICES_CONFIG@resource value=(@xml/ga_ad_services_config) from [com.google.android.gms:play-services-measurement-api:22.0.0] AndroidManifest.xml:32:13-58
-	is also present at [com.google.android.gms:play-services-ads-lite:23.1.0] AndroidManifest.xml:92:13-59 value=(@xml/gma_ad_services_config).
-	Suggestion: add 'tools:replace=&quot;android:resource&quot;' to &lt;property&gt; element at AndroidManifest.xml to override.</historyEntry>
+        <historyEntry timestamp="1716101321598">private fun getAdSize(activity: Activity, adContainerView: AdView): AdSize {
+        // Determine the screen width (less decorations) to use for the ad width.
+        val display: Display = activity.windowManager.defaultDisplay
+        val outMetrics = DisplayMetrics()
+        display.getMetrics(outMetrics)
+
+        val density = outMetrics.density
+
+        var adWidthPixels = adContainerView.width
+
+        // If the ad hasn't been laid out, default to the full screen width.
+        if (adWidthPixels == 0) {
+            adWidthPixels = outMetrics.widthPixels
+        }
+
+        val adWidth = (adWidthPixels / density).toInt()
+        return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(activity, adWidth)
+    }
+
+create non deprecated function from above code</historyEntry>
       </list>
     </option>
   </component>
