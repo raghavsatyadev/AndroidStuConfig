@@ -23,11 +23,12 @@
         <option value="Service" />
         <option value="tagSocket(3) with statsTag=0xffffffff" />
         <option value="tagSocket(5) with statsTag=0xffffffff," />
+        <option value="uid=10017" />
         <option value="Unknown params" />
         <option value="updateAcquireFence" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="uid=10017" />
+        <option value=" Unknown level" />
       </list>
     </option>
   </component>
