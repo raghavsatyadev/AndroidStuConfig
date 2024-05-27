@@ -3,14 +3,5 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
-    <option name="queryHistory">
-      <list>
-        <historyEntry timestamp="1716802771395">T is generic</historyEntry>
-        <historyEntry timestamp="1716802751862">@RawQuery(observedEntities = [T::class])
-    abstract fun getAllLive(simpleSQLiteQuery: SimpleSQLiteQuery): Flow&lt;List&lt;T&gt;&gt;
-
-get class type for T::class</historyEntry>
-      </list>
-    </option>
   </component>
 </application>

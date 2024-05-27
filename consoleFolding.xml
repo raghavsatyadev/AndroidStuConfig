@@ -2,6 +2,7 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value=" Unknown level" />
         <option value="(HTTPLog)-Static: isSBSettingEnabled false" />
         <option value="Accessing hidden field" />
         <option value="Accessing hidden method" />
@@ -16,11 +17,13 @@
         <option value="Error opening kernel wakelock" />
         <option value="Failed to apply optimization" />
         <option value="GetClientTargetProperty" />
+        <option value="getRecentTasks" />
         <option value="JSON string is empty" />
         <option value="nativeRelease" />
         <option value="nativeSetScreenProjection" />
         <option value="PerfMonitor" />
         <option value="Service" />
+        <option value="tagSocket" />
         <option value="tagSocket(3) with statsTag=0xffffffff" />
         <option value="tagSocket(5) with statsTag=0xffffffff," />
         <option value="uid=10017" />
@@ -28,7 +31,7 @@
         <option value="updateAcquireFence" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value=" Unknown level" />
+        <option value="ApkAssets" />
       </list>
     </option>
   </component>
