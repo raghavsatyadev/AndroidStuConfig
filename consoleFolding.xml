@@ -4,6 +4,7 @@
       <list>
         <option value=" Unknown level" />
         <option value="(HTTPLog)-Static: isSBSettingEnabled false" />
+        <option value="Access denied finding property" />
         <option value="Accessing hidden field" />
         <option value="Accessing hidden method" />
         <option value="ApkAssets" />
@@ -34,7 +35,7 @@
         <option value="updateAcquireFence" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="Access denied finding property" />
+        <option value="uid=10869" />
       </list>
     </option>
   </component>
