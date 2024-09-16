@@ -10,5 +10,6 @@
     <entry key="ide.experimental.ui" value="true" />
     <entry key="feature.suggester.enable.suggesters" value="true" />
     <entry key="terminal.new.ui" value="true" />
+    <entry key="i18n.locale" value="" />
   </component>
 </application>
