@@ -11,6 +11,7 @@
     <entry key="feature.suggester.enable.suggesters" value="true" />
     <entry key="terminal.new.ui" value="true" />
     <entry key="i18n.locale" value="" />
+    <entry key="ide.instant.shutdown" value="false" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
