@@ -3,6 +3,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="onMessageReceived" />
         <option value="package:mine onMessageReceived" />
         <option value="package:mine" />
         <option value="package:mine Google" />
@@ -21,7 +22,6 @@
         <option value="level:error " />
         <option value="remoteCon" />
         <option value="remote" />
-        <option value="package:com.lexmark.mobileone  level:error " />
       </list>
     </option>
   </component>
