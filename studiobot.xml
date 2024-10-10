@@ -3,5 +3,14 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1728565660551">Explain: Process: io.github.raghavsatyadev.sundaramgold, PID: 8017
+java.lang.IllegalStateException: System services not available to Activities before onCreate()
+at android.accessibilityservice.AccessibilityService.getSystemService(AccessibilityService.java:2601)
+at io.github.raghavsatyadev.sundaramgold.service.CameraAccessibilityService.sendKeyEvent(CameraAccessibilityService.kt:31)
+at io.github.raghavsatyadev.sundaramgold.service.CameraAccessibilityService.simulateVolumeButtonPress(CameraAccessibilityService.kt:26) with tag JavaExceptionHandler</historyEntry>
+      </list>
+    </option>
   </component>
 </application>
