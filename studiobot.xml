@@ -5,6 +5,20 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1729077519806">Make suggestions to improve this code:
+var matrix: ArrayList&lt;ArrayList&lt;Int&gt;&gt; = ArrayList()
+
+related.forEachIndexed { index, pairs -&gt;
+    pairs.split(&quot;&quot;).toList().forEachIndexed { relationIndex, relation -&gt;
+        matrix[index][relationIndex] = relation.toInt()
+    }
+}</historyEntry>
+        <historyEntry timestamp="1729077500948">Make suggestions to improve this code:
+related.forEachIndexed { index, pairs -&gt;
+    pairs.split(&quot;&quot;).toList().forEachIndexed { relationIndex, relation -&gt;
+        matrix[index][relationIndex] = relation.toInt()
+    }
+}</historyEntry>
         <historyEntry timestamp="1728565660551">Explain: Process: io.github.raghavsatyadev.sundaramgold, PID: 8017
 java.lang.IllegalStateException: System services not available to Activities before onCreate()
 at android.accessibilityservice.AccessibilityService.getSystemService(AccessibilityService.java:2601)

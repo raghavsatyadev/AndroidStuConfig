@@ -1,0 +1,12 @@
+<application>
+  <component name="PromptTemplates">
+    <option name="prompts">
+      <list>
+        <PromptTemplate>
+          <option name="name" value="Explain this code" />
+          <option name="text" value="Explain next code: &#10; $SELECTION" />
+        </PromptTemplate>
+      </list>
+    </option>
+  </component>
+</application>
