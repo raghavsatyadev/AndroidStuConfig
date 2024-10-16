@@ -1,29 +1,44 @@
 <application>
   <component name="StudioBotSettings">
     <option name="contextSharingModeV2" value="AlwaysShare" />
-    <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1729077519806">Make suggestions to improve this code:
-var matrix: ArrayList&lt;ArrayList&lt;Int&gt;&gt; = ArrayList()
+        <historyEntry timestamp="1729079982307">Make suggestions to improve this code:
+fun checker(related: Array&lt;String&gt;): Int {
+    val size = related.size
 
-related.forEachIndexed { index, pairs -&gt;
-    pairs.split(&quot;&quot;).toList().forEachIndexed { relationIndex, relation -&gt;
-        matrix[index][relationIndex] = relation.toInt()
+    val matrix = Array(size) { IntArray(size) }
+
+    related.forEachIndexed { index, pairs -&gt;
+        pairs.split(&quot;&quot;).forEachIndexed { relationIndex, relation -&gt;
+            matrix[index][relationIndex] = relation.toInt()
+        }
     }
-}</historyEntry>
-        <historyEntry timestamp="1729077500948">Make suggestions to improve this code:
-related.forEachIndexed { index, pairs -&gt;
-    pairs.split(&quot;&quot;).toList().forEachIndexed { relationIndex, relation -&gt;
-        matrix[index][relationIndex] = relation.toInt()
+
+    val graph = Array(size) { mutableListOf&lt;Int&gt;() }
+    for (i in 0 until size) {
+        for (j in 0 until size) {
+            if (matrix[i][j] == 1) { // There's a relationship (i sends gift to j or vice versa)
+                graph[i].add(j)
+                graph[j].add(i)
+            }
+        }
     }
+
+    val visited = BooleanArray(size)
+    var groupCount = 0
+
+    for (person in 0 until size) {
+        if (!visited[person]) {
+            // If person hasn't been visited, it's a new group
+            dfs(person, graph, visited)
+            groupCount++
+        }
+    }
+
+    return groupCount
 }</historyEntry>
-        <historyEntry timestamp="1728565660551">Explain: Process: io.github.raghavsatyadev.sundaramgold, PID: 8017
-java.lang.IllegalStateException: System services not available to Activities before onCreate()
-at android.accessibilityservice.AccessibilityService.getSystemService(AccessibilityService.java:2601)
-at io.github.raghavsatyadev.sundaramgold.service.CameraAccessibilityService.sendKeyEvent(CameraAccessibilityService.kt:31)
-at io.github.raghavsatyadev.sundaramgold.service.CameraAccessibilityService.simulateVolumeButtonPress(CameraAccessibilityService.kt:26) with tag JavaExceptionHandler</historyEntry>
       </list>
     </option>
   </component>
