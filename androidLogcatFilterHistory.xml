@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine searchVideos" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine searchVideos" />
         <option value="package:mine " />
         <option value="onMessageReceived" />
         <option value="package:mine onMessageReceived" />
@@ -21,7 +23,6 @@
         <option value="level:warn " />
         <option value="level:error " />
         <option value="remoteCon" />
-        <option value="remote" />
       </list>
     </option>
   </component>
