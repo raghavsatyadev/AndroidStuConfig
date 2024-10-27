@@ -73,6 +73,9 @@
       </JAVA.annotation.hints>
     </settingsMapElement>
   </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
   <component name="JetEditorOptions">
     <option name="donTShowConversionDialog" value="true" />
   </component>
