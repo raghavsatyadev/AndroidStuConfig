@@ -4,6 +4,11 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1730286960334">Explain: Process: io.github.raghavsatyadev.sundaram_gold, PID: 32178
+java.lang.IllegalArgumentException: TypeToken type argument must not contain a type variable; captured type variable T declared by public final java.util.ArrayList io.github.raghavsatyadev.support.work_manager.YoutubeSearch.readFiles(java.io.File)
+See https://github.com/google/gson/blob/main/Troubleshooting.md#typetoken-type-variable
+at com.google.gson.reflect.TypeToken.verifyNoTypeVariable(TypeToken.java:130)
+at com.google.gson.reflect.TypeToken.verifyNoTypeVariable(TypeToken.java:141) with tag JavaExceptionHandler</historyEntry>
         <historyEntry timestamp="1729079982307">Make suggestions to improve this code:
 fun checker(related: Array&lt;String&gt;): Int {
     val size = related.size
