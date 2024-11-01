@@ -1,6 +1,7 @@
 <application>
   <component name="DebuggerSettings">
     <option name="SHOW_ALTERNATIVE_SOURCE" value="false" />
+    <option name="WATCH_RETURN_VALUES" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -104,6 +105,7 @@
       <debugger id="ObjectiveC">
         <configuration>
           <option name="LLDB_NATVIS_RENDERERS_ENABLED" value="false" />
+          <macOS-symbol-settings />
           <nt-symbol-settings />
         </configuration>
       </debugger>
