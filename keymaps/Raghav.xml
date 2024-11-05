@@ -7,12 +7,17 @@
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="DCM.fixAll">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
+  <action id="EditorSelectWord" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
@@ -45,10 +50,13 @@
   </action>
   <action id="ResourceExplorer.show" />
   <action id="ServiceView.ShowServices" />
+  <action id="SmartSelect" />
   <action id="SonarLint.AnalyzeFiles">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
+  <action id="Terminal.DeletePreviousWord" />
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
