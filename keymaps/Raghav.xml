@@ -1,0 +1,66 @@
+<keymap version="1" name="Raghav" parent="$default">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$ShowTranslationDialogAction" />
+  <action id="$TranslateAndReplaceAction" />
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="DCM.fixAll">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="Github.PullRequest.Diff.Comment.Create" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="IntentionActionAsAction_org.jetbrains.kotlin.android.intention.KotlinAndroidAddStringResource">
+    <keyboard-shortcut first-keystroke="shift ctrl alt q" />
+  </action>
+  <action id="IntroduceTypeAlias" />
+  <action id="KDo-cer-menu-add">
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
+  <action id="KDo-cer-menu-all-add">
+    <keyboard-shortcut first-keystroke="shift ctrl alt y" />
+  </action>
+  <action id="MainMenuButton.ShowMenu" />
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="ResourceExplorer.show" />
+  <action id="ServiceView.ShowServices" />
+  <action id="SmartSelect" />
+  <action id="SonarLint.AnalyzeFiles">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="Terminal.DeletePreviousWord" />
+  <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+</keymap>

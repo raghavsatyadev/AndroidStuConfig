@@ -1,0 +1,61 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="MainToolbarGeneralActionsGroup" is_group="true" forse_popup="false" action_type="-1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+    </group>
+    <group value="MakeGradleModule" is_action="true" action_type="-1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Right" />
+      <path value="Android Main Toolbar Right" />
+    </group>
+    <group value="MainToolbarGeneralActionsGroup" is_group="true" forse_popup="false" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+    </group>
+    <group value="Synchronize" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="General Actions" />
+    </group>
+    <group value="Vcs.Push" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="Vcs.UpdateProject" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="Compare.SameVersion" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="Git.ContextMenu" is_group="true" forse_popup="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+    </group>
+    <group value="ChangesView.Revert" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+      <path value="VCS Group" />
+    </group>
+    <group value="GradleKiller.kill" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Left" />
+    </group>
+    <action id="Git.ContextMenu" icon="ActivateVersionControlToolWindow" />
+  </component>
+</application>

@@ -1,0 +1,22 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="lastActionModel">
+      <UniversalActionModel>
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
+        <option name="description" value="Toggle: SCREAMING_SNAKE_CASE / camelCase" />
+        <option name="textWithMnemonic" value="SCREAMING_SNAKE_CASE / camelCase" />
+      </UniversalActionModel>
+    </option>
+    <option name="sortSettingsMap">
+      <map>
+        <entry key="SortAction">
+          <value>
+            <SortSettings>
+              <option name="ignoreLeadingCharacters" value="#" />
+            </SortSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

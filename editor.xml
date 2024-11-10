@@ -1,0 +1,86 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="ENABLE_SECOND_REFORMAT" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="gittoolbox.code.vision.blame.changeDate" value="Default" />
+        <entry key="gittoolbox.code.vision.blame.issueNav" value="Default" />
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="rename" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+    <option name="defaultPosition" value="Right" />
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="enabledOptions">
+      <map>
+        <entry key="kotlin.lambdas.hints#hints.lambda.receivers.parameters" value="true" />
+        <entry key="kotlin.lambdas.hints#hints.lambda.return" value="true" />
+        <entry key="kotlin.references.types.hints#hints.type.function.parameter" value="true" />
+        <entry key="kotlin.references.types.hints#hints.type.function.return" value="true" />
+        <entry key="kotlin.references.types.hints#hints.type.property" value="true" />
+        <entry key="kotlin.references.types.hints#hints.type.variable" value="true" />
+        <entry key="oc.type.hints#lambdas" value="true" />
+        <entry key="oc.type.hints#obvious.types" value="true" />
+        <entry key="oc.type.hints#parameter.types" value="true" />
+        <entry key="oc.type.hints#return.types" value="true" />
+        <entry key="oc.type.hints#variables" value="true" />
+      </map>
+    </option>
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="compose.state.read" value="true" />
+        <entry key="devkit.threading" value="true" />
+        <entry key="groovy.implicit.null.argument" value="true" />
+        <entry key="groovy.local.variable.implicit.types" value="true" />
+        <entry key="java.implicit.types" value="true" />
+        <entry key="java.method.chains" value="true" />
+        <entry key="kotlin.lambdas.hints" value="true" />
+        <entry key="kotlin.method.chains" value="true" />
+        <entry key="kotlin.references.types.hints" value="true" />
+        <entry key="kotlin.values.hints" value="true" />
+        <entry key="oc.type.hints" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE:PREVIEW" />
+    <option name="SHOW_STICKY_LINES" value="false" />
+    <option name="SHOW_INLINE_DIALOG" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value=".vcs.code.vision" />
+    <settingsMapElement>
+      <JAVA.annotation.hints>
+        <Settings>
+          <option name="showInferred" value="true" />
+        </Settings>
+      </JAVA.annotation.hints>
+    </settingsMapElement>
+  </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
+  <component name="JetEditorOptions">
+    <option name="donTShowConversionDialog" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
+</application>

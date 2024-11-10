@@ -1,0 +1,28 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="nonFavorites">
+      <list>
+        <option value="package:mine " />
+        <option value="package:c" />
+        <option value="package:mine level:error " />
+        <option value="package:mine searchVideos" />
+        <option value="onMessageReceived" />
+        <option value="package:mine onMessageReceived" />
+        <option value="package:mine" />
+        <option value="package:mine Google" />
+        <option value="package:mine setupGoogleServices" />
+        <option value="package:mine index" />
+        <option value="package:mine Hello" />
+        <option value="appcheck" />
+        <option value="package:io.github.raghavsatyadev.sundaramgold" />
+        <option value="package:com.lexmark.mobileone" />
+        <option value="package:com.lexmark.mobileone " />
+        <option value="Consent" />
+        <option value="level:warn consent" />
+        <option value="level:warn " />
+        <option value="level:error " />
+        <option value="remoteCon" />
+      </list>
+    </option>
+  </component>
+</application>
