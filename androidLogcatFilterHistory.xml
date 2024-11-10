@@ -1,9 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:c" />
         <option value="package:mine level:error " />
         <option value="package:mine searchVideos" />
         <option value="onMessageReceived" />
@@ -17,7 +17,6 @@
         <option value="package:io.github.raghavsatyadev.sundaramgold" />
         <option value="package:com.lexmark.mobileone" />
         <option value="package:com.lexmark.mobileone " />
-        <option value="package:c" />
         <option value="Consent" />
         <option value="level:warn consent" />
         <option value="level:warn " />
