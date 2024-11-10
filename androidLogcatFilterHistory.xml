@@ -3,8 +3,8 @@
     <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine level:error " />
         <option value="package:mine " />
+        <option value="package:mine level:error " />
         <option value="package:mine searchVideos" />
         <option value="onMessageReceived" />
         <option value="package:mine onMessageReceived" />
