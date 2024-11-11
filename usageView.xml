@@ -1,7 +1,4 @@
 <application>
-  <component name="UsageFilteringRuleState">
-    <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
-  </component>
   <component name="UsageViewSettings">
     <option name="EXPORT_FILE_NAME" value="C:/Raghav/CurrentProjects/BulkYoutubeSearch/report.txt" />
   </component>
