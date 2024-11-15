@@ -1,5 +1,6 @@
 <application>
   <component name="Color Highlighter Settings">
+    <option name="rgbaEnabled" value="false" />
     <option name="version" value="18.1.0" />
   </component>
 </application>

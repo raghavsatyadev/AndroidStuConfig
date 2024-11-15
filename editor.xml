@@ -1,5 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="ENABLE_SECOND_REFORMAT" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
@@ -47,11 +48,14 @@
         <entry key="compose.state.read" value="true" />
         <entry key="devkit.threading" value="true" />
         <entry key="groovy.implicit.null.argument" value="true" />
+        <entry key="groovy.lambda.parameter.inlay.provider" value="true" />
         <entry key="groovy.local.variable.implicit.types" value="true" />
+        <entry key="java.implicit.lambdaParameter" value="true" />
         <entry key="java.implicit.types" value="true" />
         <entry key="java.method.chains" value="true" />
         <entry key="kotlin.lambdas.hints" value="true" />
         <entry key="kotlin.method.chains" value="true" />
+        <entry key="kotlin.parameters.hints" value="false" />
         <entry key="kotlin.references.types.hints" value="true" />
         <entry key="kotlin.values.hints" value="true" />
         <entry key="oc.type.hints" value="true" />
@@ -59,8 +63,17 @@
     </option>
   </component>
   <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="JAVA" value="true" />
+        <entry key="JSON" value="true" />
+        <entry key="XML" value="true" />
+        <entry key="kotlin" value="true" />
+      </map>
+    </option>
     <option name="USE_SOFT_WRAPS" value="CONSOLE:PREVIEW" />
     <option name="SHOW_STICKY_LINES" value="false" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="SHOW_INLINE_DIALOG" value="false" />
   </component>
   <component name="InlayHintsSettings">
@@ -76,11 +89,10 @@
   <component name="InlineCompletionOnboarding">
     <option name="onboardingFinished" value="true" />
   </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="collapseAnonymousClasses" value="true" />
+  </component>
   <component name="JetEditorOptions">
     <option name="donTShowConversionDialog" value="true" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
   </component>
 </application>

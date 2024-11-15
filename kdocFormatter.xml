@@ -1,8 +1,8 @@
 <application>
-  <component name="AndroidEditors">
+  <component name="KDocFormatter">
     <option name="state">
       <GlobalState>
-        <option name="preferredResourcesEditorMode" value="SPLIT" />
+        <option name="lineComments" value="true" />
       </GlobalState>
     </option>
   </component>

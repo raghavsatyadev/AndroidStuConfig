@@ -1,5 +1,5 @@
 <application>
   <component name="GitToolBoxAppSettings2">
-    <option name="startupNotificationVersion" value="1" />
+    <option name="autoFetchIntervalMinutes" value="60" />
   </component>
 </application>

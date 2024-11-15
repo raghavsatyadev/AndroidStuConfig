@@ -5,12 +5,6 @@
       <path value="Main Toolbar" />
       <path value="Left" />
     </group>
-    <group value="MakeGradleModule" is_action="true" action_type="-1" position="0">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <path value="Right" />
-      <path value="Android Main Toolbar Right" />
-    </group>
     <group value="MainToolbarGeneralActionsGroup" is_group="true" forse_popup="false" action_type="1" position="1">
       <path value="root" />
       <path value="Main Toolbar" />
