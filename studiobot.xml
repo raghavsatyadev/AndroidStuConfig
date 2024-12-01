@@ -4,6 +4,11 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1733065320553">Explain: (DispatchedCoroutine.kt:44) : signIn : [28444] Developer console is not set up correctly.
+androidx.credentials.exceptions.GetCredentialCustomException: [28444] Developer console is not set up correctly.
+at androidx.credentials.internal.ConversionUtilsKt.toJetpackGetException(ConversionUtils.kt:102)
+at androidx.credentials.CredentialProviderFrameworkImpl.convertToJetpackGetException$credentials_release(CredentialProviderFrameworkImpl.kt:295)
+at androidx.credentials.CredentialProviderFrameworkImpl$onGetCredential$outcome$2.onError(CredentialProviderFrameworkImpl.kt:162) with tag AppLog</historyEntry>
         <historyEntry timestamp="1730286960334">Explain: Process: io.github.raghavsatyadev.sundaram_gold, PID: 32178
 java.lang.IllegalArgumentException: TypeToken type argument must not contain a type variable; captured type variable T declared by public final java.util.ArrayList io.github.raghavsatyadev.support.work_manager.YoutubeSearch.readFiles(java.io.File)
 See https://github.com/google/gson/blob/main/Troubleshooting.md#typetoken-type-variable
