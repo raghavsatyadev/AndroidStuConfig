@@ -1,55 +1,7 @@
 <application>
   <component name="StudioBotSettings">
     <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
-    <option name="queryHistory">
-      <list>
-        <historyEntry timestamp="1733065320553">Explain: (DispatchedCoroutine.kt:44) : signIn : [28444] Developer console is not set up correctly.
-androidx.credentials.exceptions.GetCredentialCustomException: [28444] Developer console is not set up correctly.
-at androidx.credentials.internal.ConversionUtilsKt.toJetpackGetException(ConversionUtils.kt:102)
-at androidx.credentials.CredentialProviderFrameworkImpl.convertToJetpackGetException$credentials_release(CredentialProviderFrameworkImpl.kt:295)
-at androidx.credentials.CredentialProviderFrameworkImpl$onGetCredential$outcome$2.onError(CredentialProviderFrameworkImpl.kt:162) with tag AppLog</historyEntry>
-        <historyEntry timestamp="1730286960334">Explain: Process: io.github.raghavsatyadev.sundaram_gold, PID: 32178
-java.lang.IllegalArgumentException: TypeToken type argument must not contain a type variable; captured type variable T declared by public final java.util.ArrayList io.github.raghavsatyadev.support.work_manager.YoutubeSearch.readFiles(java.io.File)
-See https://github.com/google/gson/blob/main/Troubleshooting.md#typetoken-type-variable
-at com.google.gson.reflect.TypeToken.verifyNoTypeVariable(TypeToken.java:130)
-at com.google.gson.reflect.TypeToken.verifyNoTypeVariable(TypeToken.java:141) with tag JavaExceptionHandler</historyEntry>
-        <historyEntry timestamp="1729079982307">Make suggestions to improve this code:
-fun checker(related: Array&lt;String&gt;): Int {
-    val size = related.size
-
-    val matrix = Array(size) { IntArray(size) }
-
-    related.forEachIndexed { index, pairs -&gt;
-        pairs.split(&quot;&quot;).forEachIndexed { relationIndex, relation -&gt;
-            matrix[index][relationIndex] = relation.toInt()
-        }
-    }
-
-    val graph = Array(size) { mutableListOf&lt;Int&gt;() }
-    for (i in 0 until size) {
-        for (j in 0 until size) {
-            if (matrix[i][j] == 1) { // There's a relationship (i sends gift to j or vice versa)
-                graph[i].add(j)
-                graph[j].add(i)
-            }
-        }
-    }
-
-    val visited = BooleanArray(size)
-    var groupCount = 0
-
-    for (person in 0 until size) {
-        if (!visited[person]) {
-            // If person hasn't been visited, it's a new group
-            dfs(person, graph, visited)
-            groupCount++
-        }
-    }
-
-    return groupCount
-}</historyEntry>
-      </list>
-    </option>
   </component>
 </application>
