@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToSnakeCaseOrCamelCaseAction" />
-        <option name="description" value="Toggle: snake_case / camelCase" />
-        <option name="textWithMnemonic" value="snake_case / camelCase" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToPascalCaseOrCamelCaseAction" />
+        <option name="description" value="Toggle: PascalCase / camelCase" />
+        <option name="textWithMnemonic" value="PascalCase / camelCase" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
