@@ -1,10 +1,12 @@
 <application>
   <component name="SonarLintGlobalSettings">
+    <option name="focusOnNewCode" value="true" />
+    <option name="secretsNeverBeenAnalysed" value="false" />
     <option name="sonarQubeServers">
       <list>
         <SonarQubeServer>
           <option name="hostUrl" value="http://localhost:9000/" />
-          <token>dfd9dfdbdfdadff5df9adfcedfcbdfcbdf9bdfcedf93dfcbdfcedf92df92df93dfcedf9edfc9df92df9bdfcfdf9ddf99df92dfcedf9bdf98df9fdf9ddfcfdf9edfc9df9ddfcbdf9adf92df98df99dfc8dfcedf99df98df93</token>
+          <token>dfd9dfdbdfdadff5df9edf9ddf99df92df9edf92df9cdfcbdf9cdf9cdf92df9adf9bdf9edfc8dfc9df9fdf9ddf9adf9adf9adf98dfc9df9cdf9fdf93df9cdf9cdf9edfc8df9fdf98df9ddf9cdf92df9ddf98dfc9df92dfce</token>
           <option name="name" value="Local" />
         </SonarQubeServer>
       </list>
