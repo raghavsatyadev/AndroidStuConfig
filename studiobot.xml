@@ -2,5 +2,16 @@
   <component name="StudioBotSettings">
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1734086751944">I'm getting the following error while building my project. The error is: Serializer has not been found for type 'java.util.Date?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+```
+$ ./gradlew :support:compileDevDebugKotlin
+e: file:///C:/Raghav/CurrentProjects/SCUC/SimpleCricketUmpireScorer/support/src/main/kotlin/io/github/raghavsatyadev/support/models/db/match_record/MatchRecord.kt:139:31 Serializer has not been found for type 'java.util.Date?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
+
+```
+How do I fix this?</historyEntry>
+      </list>
+    </option>
   </component>
 </application>
