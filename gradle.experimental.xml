@@ -2,5 +2,6 @@
   <component name="GradleExperimentalSettings">
     <option name="USE_MULTI_VARIANT_EXTRA_ARTIFACTS" value="true" />
     <option name="SKIP_GRADLE_TASKS_LIST" value="false" />
+    <option name="ENABLE_PARALLEL_SYNC" value="false" />
   </component>
 </application>
