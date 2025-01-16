@@ -1,6 +1,5 @@
 <application>
   <component name="DeviceMirroringSettingsV2">
     <option name="confirmationDialogShown" value="true" />
-    <option name="synchronizeClipboard" value="false" />
   </component>
 </application>
