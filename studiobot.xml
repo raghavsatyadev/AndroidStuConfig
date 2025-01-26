@@ -4,6 +4,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1737880804654">Explain build error: Internal compiler error. See log for more details</historyEntry>
         <historyEntry timestamp="1734091865331">Explain: (DispatchedCoroutine.kt:100) : createMatch : Serializer for class 'Any' is not found. Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.kotlinx.serialization.SerializationException: Serializer for class 'Any' is not found. Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied. with tag AppLog</historyEntry>
         <historyEntry timestamp="1734091793318">Explain: (DispatchedCoroutine.kt:100) : createMatch : Serializer for class 'Any' is not found.
 Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
