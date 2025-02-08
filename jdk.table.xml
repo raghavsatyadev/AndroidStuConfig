@@ -847,6 +847,33 @@
       <additional sdk="android-35" />
     </jdk>
     <jdk version="2">
+      <name value="Android API 35, Baklava preview, extension level 16 Platform" />
+      <type value="Android SDK" />
+      <homePath value="C:/Raghav/SDK" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://C:/Raghav/SDK/platforms/android-Baklava/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://C:/Raghav/SDK/platforms/android-Baklava/android.jar!/" type="simple" />
+            <root url="file://C:/Raghav/SDK/platforms/android-Baklava/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="http://developer.android.com/reference/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional sdk="android-Baklava" />
+    </jdk>
+    <jdk version="2">
       <name value="jbr-21 (2)" />
       <type value="JavaSDK" />
       <version value="JetBrains Runtime 21.0.5" />
