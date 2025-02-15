@@ -2,33 +2,5 @@
   <component name="StudioBotSettings">
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="onboardedVersion" value="3" />
-    <option name="queryHistory">
-      <list>
-        <historyEntry timestamp="1739617488374">Explain: (DispatchedCoroutine.kt:36) : searchContact : Unauthenticated
-com.google.firebase.functions.FirebaseFunctionsException: Unauthenticated
-at com.google.firebase.functions.FirebaseFunctionsException$Companion.fromResponse$com_google_firebase_firebase_functions(FirebaseFunctionsException.kt:234)
-at com.google.firebase.functions.FirebaseFunctions$call$5.onResponse(FirebaseFunctions.kt:281)
-at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519) with tag AppLog</historyEntry>
-        <historyEntry timestamp="1739616148538">Explain: FATAL EXCEPTION: main
-Process: io.github.raghavsatyadev.sundaram_gold, PID: 22653
-kotlinx.serialization.SerializationException: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
- with tag AndroidRuntime</historyEntry>
-        <historyEntry timestamp="1737880804654">Explain build error: Internal compiler error. See log for more details</historyEntry>
-        <historyEntry timestamp="1734091865331">Explain: (DispatchedCoroutine.kt:100) : createMatch : Serializer for class 'Any' is not found. Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.kotlinx.serialization.SerializationException: Serializer for class 'Any' is not found. Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied. with tag AppLog</historyEntry>
-        <historyEntry timestamp="1734091793318">Explain: (DispatchedCoroutine.kt:100) : createMatch : Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied.
-
-kotlinx.serialization.SerializationException: Serializer for class 'Any' is not found.
-Please ensure that class is marked as '@Serializable' and that the serialization compiler plugin is applied. with tag AppLog</historyEntry>
-        <historyEntry timestamp="1734086751944">I'm getting the following error while building my project. The error is: Serializer has not been found for type 'java.util.Date?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
-```
-$ ./gradlew :support:compileDevDebugKotlin
-e: file:///C:/Raghav/CurrentProjects/SCUC/SimpleCricketUmpireScorer/support/src/main/kotlin/io/github/raghavsatyadev/support/models/db/match_record/MatchRecord.kt:139:31 Serializer has not been found for type 'java.util.Date?'. To use context serializer as fallback, explicitly annotate type or property with @Contextual
-
-```
-How do I fix this?</historyEntry>
-      </list>
-    </option>
   </component>
 </application>
