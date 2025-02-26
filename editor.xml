@@ -75,6 +75,7 @@
     <option name="SHOW_STICKY_LINES" value="false" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="SHOW_INLINE_DIALOG" value="false" />
+    <option name="BIDI_TEXT_DIRECTION" value="LTR" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value=".vcs.code.vision" />
